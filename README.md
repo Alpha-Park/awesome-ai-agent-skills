@@ -1009,6 +1009,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-gae-generalized-advantage-estimation-skill](https://github.com/Alpha-Park/genpark-gae-generalized-advantage-estimation-skill) | Generalized Advantage Estimation (GAE-Lambda) exponentially weighted temporal difference calculator | Service | [x] | Standard library |
 | [genpark-sac-maximum-entropy-rl-evaluator-skill](https://github.com/Alpha-Park/genpark-sac-maximum-entropy-rl-evaluator-skill) | Soft Actor-Critic (SAC) maximum entropy policy value and soft Bellman target evaluator | Service | [x] | Standard library |
 
+
+### Phase 291: Distributed Storage, Percolator Transactions & Consistent Hashing
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-percolator-distributed-transaction-protocol-skill](https://github.com/Alpha-Park/genpark-percolator-distributed-transaction-protocol-skill) | Percolator snapshot-isolated distributed transaction protocol with primary-lock two-phase commit | Service | [x] | Standard library |
+| [genpark-consistent-hashing-vnodes-replication-skill](https://github.com/Alpha-Park/genpark-consistent-hashing-vnodes-replication-skill) | Consistent hashing ring with virtual nodes (vnodes) and configurable replica distribution | Service | [x] | Standard library |
+| [genpark-two-phase-commit-2pc-coordinator-skill](https://github.com/Alpha-Park/genpark-two-phase-commit-2pc-coordinator-skill) | Two-Phase Commit (2PC) distributed atomic transaction coordinator with failure rollback | Service | [x] | Standard library |
+| [genpark-mvcc-snapshot-isolation-engine-skill](https://github.com/Alpha-Park/genpark-mvcc-snapshot-isolation-engine-skill) | Multi-Version Concurrency Control (MVCC) snapshot isolation engine with epoch vacuuming | Service | [x] | Standard library |
+| [genpark-counting-bloom-filter-safe-deletion-skill](https://github.com/Alpha-Park/genpark-counting-bloom-filter-safe-deletion-skill) | Counting Bloom Filter supporting item insertion, safe deletion, and membership testing without false negatives | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
