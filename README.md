@@ -840,6 +840,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-convolutional-2d-forward-backward-skill](https://github.com/Alpha-Park/genpark-convolutional-2d-forward-backward-skill) | 2D spatial convolution forward and backpropagation with kernel padding and strides | Service | [x] | Standard library |
 | [genpark-layer-norm-rms-norm-regularization-skill](https://github.com/Alpha-Park/genpark-layer-norm-rms-norm-regularization-skill) | Layer normalization and RMSNorm regularization for transformer hidden representations | Service | [x] | Standard library |
 
+
+### Phase 276: Robotics, Kinematics, Trajectory Planning & PID Control
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-forward-inverse-kinematics-dh-parameters-skill](https://github.com/Alpha-Park/genpark-forward-inverse-kinematics-dh-parameters-skill) | Denavit-Hartenberg coordinate frame transforms, forward kinematics, and analytical inverse kinematics | Service | [x] | Standard library |
+| [genpark-pid-controller-anti-windup-derivative-filter-skill](https://github.com/Alpha-Park/genpark-pid-controller-anti-windup-derivative-filter-skill) | Industrial closed-loop PID controller with integrator anti-windup clamping and low-pass derivative filtering | Service | [x] | Standard library |
+| [genpark-rapidly-exploring-random-tree-rrt-motion-planning-skill](https://github.com/Alpha-Park/genpark-rapidly-exploring-random-tree-rrt-motion-planning-skill) | Rapidly-exploring Random Tree (RRT) path and motion planner for collision-free robotic navigation in obstacle spaces | Service | [x] | Standard library |
+| [genpark-dubins-path-nonholonomic-trajectory-generator-skill](https://github.com/Alpha-Park/genpark-dubins-path-nonholonomic-trajectory-generator-skill) | Nonholonomic Dubins curve trajectory planner for car-like vehicles with minimum turning radius constraints | Service | [x] | Standard library |
+| [genpark-extended-kalman-filter-robot-localization-skill](https://github.com/Alpha-Park/genpark-extended-kalman-filter-robot-localization-skill) | Extended Kalman Filter (EKF) for non-linear mobile robot pose estimation and landmark sensor fusion | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
