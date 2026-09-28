@@ -1089,6 +1089,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-quadtree-spatial-partitioning-engine-skill](https://github.com/Alpha-Park/genpark-quadtree-spatial-partitioning-engine-skill) | Recursive 2D Quadtree spatial decomposition partitioning points into quadrants with range queries | Service | [x] | Standard library |
 | [genpark-bvh-bounding-volume-hierarchy-ray-tracer-skill](https://github.com/Alpha-Park/genpark-bvh-bounding-volume-hierarchy-ray-tracer-skill) | Bounding Volume Hierarchy (BVH) ray-box intersection engine using slab method for fast ray tracing | Service | [x] | Standard library |
 
+
+### Phase 299: Zero-Knowledge Proofs & Algebraic Circuits
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-qap-quadratic-arithmetic-program-groth16-skill](https://github.com/Alpha-Park/genpark-qap-quadratic-arithmetic-program-groth16-skill) | Quadratic Arithmetic Program (QAP) reduction transforming R1CS constraints into polynomial divisibility statements | Service | [x] | Standard library |
+| [genpark-plonk-permutation-argument-grand-product-skill](https://github.com/Alpha-Park/genpark-plonk-permutation-argument-grand-product-skill) | Plonk grand product copy-constraint permutation argument tracking wire routing equality | Service | [x] | Standard library |
+| [genpark-kzg-polynomial-commitment-trusted-setup-skill](https://github.com/Alpha-Park/genpark-kzg-polynomial-commitment-trusted-setup-skill) | Kate-Zaverucha-Goldberg (KZG) polynomial commitment evaluator with evaluation proofs | Service | [x] | Standard library |
+| [genpark-poseidon-algebraic-hash-zk-friendly-skill](https://github.com/Alpha-Park/genpark-poseidon-algebraic-hash-zk-friendly-skill) | Poseidon algebraic hash function for STARK/SNARK circuits with S-box power permutations and MDS matrices | Service | [x] | Standard library |
+| [genpark-fiat-shamir-heuristic-interactive-to-nizk-skill](https://github.com/Alpha-Park/genpark-fiat-shamir-heuristic-interactive-to-nizk-skill) | Fiat-Shamir heuristic transformation converting interactive proof transcripts into non-interactive zero-knowledge arguments | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
