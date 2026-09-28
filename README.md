@@ -806,3 +806,18 @@ Cryptographic payment webhook verification, mathematical double-entry general le
 | [`genpark-fintech-transaction-velocity-fraud-sentinel-skill`](https://github.com/Alpha-Park/genpark-fintech-transaction-velocity-fraud-sentinel-skill) | Real-time sliding window fraud and card-testing velocity sentinel scoring transactional risk anomalies. | `FintechTransactionVelocityFraudSentinel` |
 
 ---
+
+
+
+### 🧠 9. Agentic Memory, Vector Search & Graph RAG (Phase 251)
+Hierarchical episodic memory with recency decay, zero-dependency BM25 & Cosine Reciprocal Rank Fusion, knowledge graph triplet extraction, high-throughput semantic query cache, and lost-in-the-middle context reordering.
+
+| Skill Name | Description | Python Client |
+|:---|:---|:---|
+| [`genpark-agent-hierarchical-episodic-memory-skill`](https://github.com/Alpha-Park/genpark-agent-hierarchical-episodic-memory-skill) | Cognitive multi-tier memory kernel managing working scratchpad, sliding dialogue buffer, and episodic memories with exponential recency decay. | `AgentHierarchicalEpisodicMemory` |
+| [`genpark-cosine-bm25-reciprocal-rank-fusion-skill`](https://github.com/Alpha-Park/genpark-cosine-bm25-reciprocal-rank-fusion-skill) | Zero-dependency hybrid retrieval engine fusing sparse lexical BM25 Okapi and dense Cosine vector similarities via Reciprocal Rank Fusion. | `CosineBM25ReciprocalRankFusion` |
+| [`genpark-knowledge-graph-entity-relation-triplet-extractor-skill`](https://github.com/Alpha-Park/genpark-knowledge-graph-entity-relation-triplet-extractor-skill) | Entity-relation-object triplet extractor and multi-hop path reasoning kernel with Cypher and JSON-LD graph generation. | `KnowledgeGraphTripletExtractor` |
+| [`genpark-agent-semantic-cache-similarity-deduplicator-skill`](https://github.com/Alpha-Park/genpark-agent-semantic-cache-similarity-deduplicator-skill) | High-throughput semantic query cache and approximate deduplicator combining exact SHA-256 and cosine similarity threshold matching with LRU eviction. | `AgentSemanticCacheDeduplicator` |
+| [`genpark-context-window-lost-in-middle-reorderer-skill`](https://github.com/Alpha-Park/genpark-context-window-lost-in-middle-reorderer-skill) | Context window attention optimizer reordering retrieved documents to place critical evidence at prompt boundaries, mitigating lost-in-the-middle degradation. | `ContextWindowLostInMiddleReorderer` |
+
+---
