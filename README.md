@@ -800,6 +800,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-cidr-subnet-ip-routing-table-skill](https://github.com/Alpha-Park/genpark-cidr-subnet-ip-routing-table-skill) | CIDR IP prefix routing table with Longest Prefix Match (LPM) and subnet decomposition | Service | [x] | Standard library |
 | [genpark-dns-wire-protocol-parser-skill](https://github.com/Alpha-Park/genpark-dns-wire-protocol-parser-skill) | DNS binary wire format packet builder, label compression reader, and header parser | Service | [x] | Pure struct |
 
+
+### Phase 272: Information Theory, Lossless Data Compression & Entropy Coding
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-huffman-coding-entropy-tree-skill](https://github.com/Alpha-Park/genpark-huffman-coding-entropy-tree-skill) | Canonical Huffman coding tree generation, prefix-free binary bitstream packer, and Shannon entropy | Service | [x] | Pure math/heapq |
+| [genpark-lzw-compression-dictionary-coder-skill](https://github.com/Alpha-Park/genpark-lzw-compression-dictionary-coder-skill) | Lempel-Ziv-Welch (LZW) dynamic dictionary lossless encoder and decoder | Service | [x] | Standard library |
+| [genpark-arithmetic-coding-fractional-interval-skill](https://github.com/Alpha-Park/genpark-arithmetic-coding-fractional-interval-skill) | High-precision fractional range subdivision arithmetic compression encoder and decoder | Service | [x] | Standard library |
+| [genpark-run-length-encoding-rle-delta-skill](https://github.com/Alpha-Park/genpark-run-length-encoding-rle-delta-skill) | Run-Length Encoding (RLE) and Delta-ZigZag differential integer serialization engine | Service | [x] | Standard library |
+| [genpark-burrows-wheeler-transform-bwt-mtf-skill](https://github.com/Alpha-Park/genpark-burrows-wheeler-transform-bwt-mtf-skill) | Burrows-Wheeler Transform (BWT) and Move-To-Front (MTF) block sorting transformation | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
