@@ -850,6 +850,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-dubins-path-nonholonomic-trajectory-generator-skill](https://github.com/Alpha-Park/genpark-dubins-path-nonholonomic-trajectory-generator-skill) | Nonholonomic Dubins curve trajectory planner for car-like vehicles with minimum turning radius constraints | Service | [x] | Standard library |
 | [genpark-extended-kalman-filter-robot-localization-skill](https://github.com/Alpha-Park/genpark-extended-kalman-filter-robot-localization-skill) | Extended Kalman Filter (EKF) for non-linear mobile robot pose estimation and landmark sensor fusion | Service | [x] | Standard library |
 
+
+### Phase 277: Formal Logic, SAT Solvers, DPLL & Automated Theorem Proving
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-dpll-sat-solver-cnf-backtracking-skill](https://github.com/Alpha-Park/genpark-dpll-sat-solver-cnf-backtracking-skill) | Davis-Putnam-Logemann-Loveland (DPLL) Boolean satisfiability solver with unit propagation and pure literal elimination | Service | [x] | Standard library |
+| [genpark-binary-decision-diagram-bdd-canonicity-skill](https://github.com/Alpha-Park/genpark-binary-decision-diagram-bdd-canonicity-skill) | Reduced Ordered Binary Decision Diagram (ROBDD) engine with Shannon expansion and canonical ITE synthesis | Service | [x] | Standard library |
+| [genpark-first-order-logic-resolution-refutation-skill](https://github.com/Alpha-Park/genpark-first-order-logic-resolution-refutation-skill) | First-Order Logic Robinson syntactic unifier with occurs-check and resolution refutation theorem prover | Service | [x] | Standard library |
+| [genpark-horn-clause-forward-backward-chaining-skill](https://github.com/Alpha-Park/genpark-horn-clause-forward-backward-chaining-skill) | Definite Horn clause deductive engine supporting forward chaining fixpoint and goal-directed backward chaining | Service | [x] | Standard library |
+| [genpark-sequent-calculus-proof-search-engine-skill](https://github.com/Alpha-Park/genpark-sequent-calculus-proof-search-engine-skill) | Gentzen propositional LK sequent calculus automated proof search engine for structural proof theory | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
