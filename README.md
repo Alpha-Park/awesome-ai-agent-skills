@@ -958,3 +958,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-simulated-annealing-metropolis-skill](https://github.com/Alpha-Park/genpark-simulated-annealing-metropolis-skill) | Thermodynamic Simulated Annealing with Metropolis acceptance criterion | Service | [x] | Pure math/random |
 | [genpark-differential-evolution-vector-optimizer-skill](https://github.com/Alpha-Park/genpark-differential-evolution-vector-optimizer-skill) | Differential Evolution (DE/rand/1/bin) continuous vector optimizer | Service | [x] | Pure random |
 | [genpark-ant-colony-optimization-tsp-skill](https://github.com/Alpha-Park/genpark-ant-colony-optimization-tsp-skill) | Ant Colony Optimization (ACO) for travelling salesperson problem | Service | [x] | Pure random |
+
+
+### Phase 266: Compiler Design, Lexing, AST Parsing & Bytecode Virtual Machines
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-lexer-regex-tokenizer-engine-skill](https://github.com/Alpha-Park/genpark-lexer-regex-tokenizer-engine-skill) | Deterministic regex lexer & tokenizer with source line/column tracking | Service | [x] | Pure re |
+| [genpark-recursive-descent-ast-parser-skill](https://github.com/Alpha-Park/genpark-recursive-descent-ast-parser-skill) | Recursive descent AST parser with precedence climbing & JSON tree | Service | [x] | Standard library |
+| [genpark-stack-bytecode-virtual-machine-skill](https://github.com/Alpha-Park/genpark-stack-bytecode-virtual-machine-skill) | Stack-based bytecode virtual machine interpreter & operand stack | Service | [x] | Standard library |
+| [genpark-lisp-scheme-s-expression-evaluator-skill](https://github.com/Alpha-Park/genpark-lisp-scheme-s-expression-evaluator-skill) | Minimalist Lisp / Scheme S-expression reader & environment frames | Service | [x] | Pure math |
+| [genpark-type-checker-hindley-milner-skill](https://github.com/Alpha-Park/genpark-type-checker-hindley-milner-skill) | Hindley-Milner type inference engine with Algorithm W unification | Service | [x] | Standard library |
