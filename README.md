@@ -1069,6 +1069,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-edmonds-karp-bfs-max-flow-skill](https://github.com/Alpha-Park/genpark-edmonds-karp-bfs-max-flow-skill) | Edmonds-Karp BFS shortest augmenting path algorithm with residual capacity updates | Service | [x] | Standard library |
 | [genpark-tarjan-dominator-tree-cfg-skill](https://github.com/Alpha-Park/genpark-tarjan-dominator-tree-cfg-skill) | Dominator tree construction and immediate dominator calculation over directed control-flow graphs | Service | [x] | Standard library |
 
+
+### Phase 297: Distributed Cryptography & Verifiable Commitments
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-shamir-secret-sharing-polynomial-recovery-skill](https://github.com/Alpha-Park/genpark-shamir-secret-sharing-polynomial-recovery-skill) | Shamir's (k, n) threshold secret sharing scheme with Lagrange polynomial interpolation over prime fields | Service | [x] | Standard library |
+| [genpark-pedersen-commitment-homomorphic-hiding-skill](https://github.com/Alpha-Park/genpark-pedersen-commitment-homomorphic-hiding-skill) | Additively homomorphic Pedersen commitment scheme ensuring perfect hiding and computational binding | Service | [x] | Standard library |
+| [genpark-merkle-mountain-range-mmr-accumulator-skill](https://github.com/Alpha-Park/genpark-merkle-mountain-range-mmr-accumulator-skill) | Append-only Merkle Mountain Range (MMR) peak accumulator with logarithmic inclusion proofs | Service | [x] | Standard library |
+| [genpark-verifiable-random-function-vrf-hash-skill](https://github.com/Alpha-Park/genpark-verifiable-random-function-vrf-hash-skill) | Verifiable Random Function (VRF) generating deterministic pseudorandom output with verifiable non-interactive proof | Service | [x] | Standard library |
+| [genpark-feldman-verifiable-secret-sharing-vss-skill](https://github.com/Alpha-Park/genpark-feldman-verifiable-secret-sharing-vss-skill) | Feldman's Verifiable Secret Sharing (VSS) broadcasting public commitments to verify share consistency | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
