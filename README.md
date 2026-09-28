@@ -810,6 +810,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-run-length-encoding-rle-delta-skill](https://github.com/Alpha-Park/genpark-run-length-encoding-rle-delta-skill) | Run-Length Encoding (RLE) and Delta-ZigZag differential integer serialization engine | Service | [x] | Standard library |
 | [genpark-burrows-wheeler-transform-bwt-mtf-skill](https://github.com/Alpha-Park/genpark-burrows-wheeler-transform-bwt-mtf-skill) | Burrows-Wheeler Transform (BWT) and Move-To-Front (MTF) block sorting transformation | Service | [x] | Standard library |
 
+
+### Phase 273: Numerical Linear Algebra, Matrix Decompositions & Eigenvalues
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-lu-decomposition-partial-pivoting-skill](https://github.com/Alpha-Park/genpark-lu-decomposition-partial-pivoting-skill) | Gaussian elimination with row partial pivoting (PLU decomposition) and linear system solver | Service | [x] | Standard library |
+| [genpark-qr-decomposition-gram-schmidt-householder-skill](https://github.com/Alpha-Park/genpark-qr-decomposition-gram-schmidt-householder-skill) | QR matrix factorization via Gram-Schmidt orthogonalization for least-squares regression | Service | [x] | Pure math |
+| [genpark-singular-value-decomposition-svd-truncated-skill](https://github.com/Alpha-Park/genpark-singular-value-decomposition-svd-truncated-skill) | Power iteration Truncated SVD for low-rank matrix approximation and latent embeddings | Service | [x] | Pure math |
+| [genpark-cholesky-decomposition-spd-solver-skill](https://github.com/Alpha-Park/genpark-cholesky-decomposition-spd-solver-skill) | Cholesky factorization (A = L L^T) for symmetric positive-definite covariance matrices | Service | [x] | Pure math |
+| [genpark-eigenvalue-power-iteration-jacobi-skill](https://github.com/Alpha-Park/genpark-eigenvalue-power-iteration-jacobi-skill) | Jacobi eigenvalue algorithm for real symmetric matrices and dominant eigenvector power iteration | Service | [x] | Pure math |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
