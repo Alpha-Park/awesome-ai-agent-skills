@@ -918,3 +918,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-biquad-iir-filter-dsp-skill](https://github.com/Alpha-Park/genpark-biquad-iir-filter-dsp-skill) | 2nd-order Direct Form IIR filter with Bode frequency response | Service | [x] | Pure math/cmath |
 | [genpark-dynamic-range-compressor-limiter-skill](https://github.com/Alpha-Park/genpark-dynamic-range-compressor-limiter-skill) | Soft-knee dynamic range compressor & peak ballistics limiter | Service | [x] | Pure math |
 | [genpark-voice-pitch-yin-autocorrelation-skill](https://github.com/Alpha-Park/genpark-voice-pitch-yin-autocorrelation-skill) | Fundamental frequency (F0) pitch detector using YIN algorithm | Service | [x] | Pure math |
+
+
+### Phase 262: Computer Vision, Morphological Image Processing & Edge Detection
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-sobel-canny-edge-detector-skill](https://github.com/Alpha-Park/genpark-sobel-canny-edge-detector-skill) | Sobel 2D convolution & Canny hysteresis edge detection engine | Service | [x] | Pure math |
+| [genpark-morphology-dilation-erosion-skill](https://github.com/Alpha-Park/genpark-morphology-dilation-erosion-skill) | Mathematical morphology dilation, erosion, opening & closing | Service | [x] | Standard library |
+| [genpark-harris-corner-feature-detector-skill](https://github.com/Alpha-Park/genpark-harris-corner-feature-detector-skill) | Harris corner & interest point autocorrelation detector | Service | [x] | Standard library |
+| [genpark-hough-transform-line-circle-skill](https://github.com/Alpha-Park/genpark-hough-transform-line-circle-skill) | Hough Transform parametric space voting accumulator | Service | [x] | Pure math |
+| [genpark-image-connected-components-labeling-skill](https://github.com/Alpha-Park/genpark-image-connected-components-labeling-skill) | Two-pass CCL image segmenter with disjoint-set Union-Find | Service | [x] | Standard library |
