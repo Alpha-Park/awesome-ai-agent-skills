@@ -880,6 +880,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-quadratic-programming-active-set-skill](https://github.com/Alpha-Park/genpark-quadratic-programming-active-set-skill) | Active-set Karush-Kuhn-Tucker (KKT) quadratic programming (QP) solver for quadratic costs with equality/inequality constraints | Service | [x] | Standard library |
 | [genpark-interior-point-primal-dual-barrier-skill](https://github.com/Alpha-Park/genpark-interior-point-primal-dual-barrier-skill) | Logarithmic barrier interior-point method for non-linear inequality constrained convex optimization | Service | [x] | Standard library |
 
+
+### Phase 280: Algorithmic Game Theory, Mechanism Design & Auction Mechanics
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-nash-equilibrium-lemke-howson-bimatrix-skill](https://github.com/Alpha-Park/genpark-nash-equilibrium-lemke-howson-bimatrix-skill) | Exact mixed-strategy Nash equilibrium solver for two-player strategic bimatrix normal-form games | Service | [x] | Standard library |
+| [genpark-vickrey-clarke-groves-vcg-auction-mechanism-skill](https://github.com/Alpha-Park/genpark-vickrey-clarke-groves-vcg-auction-mechanism-skill) | Vickrey-Clarke-Groves (VCG) truthful, incentive-compatible combinatorial auction mechanism with Clarke pivot payments | Service | [x] | Standard library |
+| [genpark-shapley-value-cooperative-game-attribution-skill](https://github.com/Alpha-Park/genpark-shapley-value-cooperative-game-attribution-skill) | Shapley value cooperative game attribution and coalitional marginal contribution calculation | Service | [x] | Standard library |
+| [genpark-gale-shapley-deferred-acceptance-matching-skill](https://github.com/Alpha-Park/genpark-gale-shapley-deferred-acceptance-matching-skill) | Gale-Shapley deferred acceptance algorithm for stable two-sided matching and market design | Service | [x] | Standard library |
+| [genpark-fictitious-play-regret-matching-game-skill](https://github.com/Alpha-Park/genpark-fictitious-play-regret-matching-game-skill) | Hart-Mas-Colell regret matching and fictitious play learning dynamics converging to correlated equilibria | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
