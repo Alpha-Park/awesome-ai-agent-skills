@@ -929,6 +929,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-ray-casting-polygon-point-in-polygon-skill](https://github.com/Alpha-Park/genpark-ray-casting-polygon-point-in-polygon-skill) | Jordan curve ray-casting point-in-polygon (PIP) test with polygon area and centroid Shoelace calculation | Service | [x] | Standard library |
 | [genpark-utm-mgrs-coordinate-projection-skill](https://github.com/Alpha-Park/genpark-utm-mgrs-coordinate-projection-skill) | Universal Transverse Mercator (UTM) forward ellipsoidal map projection with central meridian convergence | Service | [x] | Standard library |
 
+
+### Phase 283: Digital Signal Processing (DSP), Wavelets & Spectral Transforms
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-fast-fourier-transform-radix2-dit-skill](https://github.com/Alpha-Park/genpark-fast-fourier-transform-radix2-dit-skill) | Radix-2 Decimation-in-Time (DIT) Fast Fourier Transform (FFT) and Inverse FFT with twiddle factor tables | Service | [x] | Standard library |
+| [genpark-discrete-wavelet-transform-haar-daubechies-skill](https://github.com/Alpha-Park/genpark-discrete-wavelet-transform-haar-daubechies-skill) | 1D Multi-level Discrete Wavelet Transform (DWT) and Inverse DWT using Haar orthogonal filter banks | Service | [x] | Standard library |
+| [genpark-discrete-cosine-transform-dct2-jpeg-skill](https://github.com/Alpha-Park/genpark-discrete-cosine-transform-dct2-jpeg-skill) | Type-II Discrete Cosine Transform (DCT-II) and Inverse DCT (IDCT-III) with orthonormal scaling for spectral analysis | Service | [x] | Standard library |
+| [genpark-iir-filter-butterworth-bilinear-transform-skill](https://github.com/Alpha-Park/genpark-iir-filter-butterworth-bilinear-transform-skill) | 2nd-Order Butterworth Infinite Impulse Response (IIR) digital biquad filter via bilinear z-transform | Service | [x] | Standard library |
+| [genpark-fir-filter-windowed-sinc-design-skill](https://github.com/Alpha-Park/genpark-fir-filter-windowed-sinc-design-skill) | Finite Impulse Response (FIR) low-pass filter design using truncated sinc and Hamming/Blackman windowing | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
