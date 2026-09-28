@@ -1049,6 +1049,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-refcount-cycle-detection-bacon-rajan-skill](https://github.com/Alpha-Park/genpark-refcount-cycle-detection-bacon-rajan-skill) | Reference counting engine with Bacon-Rajan trial deletion cycle collection | Service | [x] | Standard library |
 | [genpark-generational-garbage-collector-card-table-skill](https://github.com/Alpha-Park/genpark-generational-garbage-collector-card-table-skill) | Generational GC with nursery and mature generations using write-barrier card table tracking | Service | [x] | Standard library |
 
+
+### Phase 295: Distributed Consensus, Paxos & Byzantine Fault Tolerance
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-multi-paxos-log-replication-engine-skill](https://github.com/Alpha-Park/genpark-multi-paxos-log-replication-engine-skill) | Multi-Paxos log replication consensus engine with leader lease optimization and slot agreement | Service | [x] | Standard library |
+| [genpark-pbft-practical-byzantine-fault-tolerance-skill](https://github.com/Alpha-Park/genpark-pbft-practical-byzantine-fault-tolerance-skill) | Practical Byzantine Fault Tolerance (PBFT) state machine replication engine with 3-phase view consensus | Service | [x] | Standard library |
+| [genpark-raft-joint-consensus-membership-reconfiguration-skill](https://github.com/Alpha-Park/genpark-raft-joint-consensus-membership-reconfiguration-skill) | Raft joint consensus dynamic membership transition protocol avoiding split-brain configurations | Service | [x] | Standard library |
+| [genpark-raft-snapshot-compaction-install-skill](https://github.com/Alpha-Park/genpark-raft-snapshot-compaction-install-skill) | Raft state machine log compaction and incremental chunked InstallSnapshot synchronization | Service | [x] | Standard library |
+| [genpark-vector-clock-causal-order-tracker-skill](https://github.com/Alpha-Park/genpark-vector-clock-causal-order-tracker-skill) | Distributed vector clocks tracking causal concurrency, happens-before relations, and concurrent events | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
