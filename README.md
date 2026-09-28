@@ -948,3 +948,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-q-learning-temporal-difference-agent-skill](https://github.com/Alpha-Park/genpark-q-learning-temporal-difference-agent-skill) | Tabular Q-learning agent with epsilon-greedy policy & TD updates | Service | [x] | Pure random |
 | [genpark-actor-critic-advantage-td-error-skill](https://github.com/Alpha-Park/genpark-actor-critic-advantage-td-error-skill) | Advantage Actor-Critic (A2C) with TD error and softmax policy | Service | [x] | Pure math |
 | [genpark-mcts-monte-carlo-tree-search-skill](https://github.com/Alpha-Park/genpark-mcts-monte-carlo-tree-search-skill) | Upper Confidence Bounds for Trees (UCT / MCTS) planning engine | Service | [x] | Pure math |
+
+
+### Phase 265: Evolutionary Computation, Genetic Algorithms & Swarm Optimization
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-genetic-algorithm-crossover-mutation-skill](https://github.com/Alpha-Park/genpark-genetic-algorithm-crossover-mutation-skill) | Genetic algorithm with tournament selection, crossover & mutation | Service | [x] | Pure random |
+| [genpark-particle-swarm-optimization-pso-skill](https://github.com/Alpha-Park/genpark-particle-swarm-optimization-pso-skill) | Continuous Particle Swarm Optimization with cognitive & social velocity | Service | [x] | Pure random |
+| [genpark-simulated-annealing-metropolis-skill](https://github.com/Alpha-Park/genpark-simulated-annealing-metropolis-skill) | Thermodynamic Simulated Annealing with Metropolis acceptance criterion | Service | [x] | Pure math/random |
+| [genpark-differential-evolution-vector-optimizer-skill](https://github.com/Alpha-Park/genpark-differential-evolution-vector-optimizer-skill) | Differential Evolution (DE/rand/1/bin) continuous vector optimizer | Service | [x] | Pure random |
+| [genpark-ant-colony-optimization-tsp-skill](https://github.com/Alpha-Park/genpark-ant-colony-optimization-tsp-skill) | Ant Colony Optimization (ACO) for travelling salesperson problem | Service | [x] | Pure random |
