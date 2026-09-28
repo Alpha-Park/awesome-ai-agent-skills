@@ -791,3 +791,18 @@ These links are discovery channels, not endorsements or proof of listing.
 GitHub Trending placement, traffic, and stars depend on community interest and are not guaranteed.
 
 MIT license. Individual repositories retain their own licenses.
+
+
+
+### 💳 8. Autonomous FinTech, Webhooks & Double-Entry Ledger (Phase 250)
+Cryptographic payment webhook verification, mathematical double-entry general ledger, smart dunning churn prevention, automated treasury sweep, and high-velocity card-testing fraud defense.
+
+| Skill Name | Description | Python Client |
+|:---|:---|:---|
+| [`genpark-fintech-webhook-idempotent-replay-guard-skill`](https://github.com/Alpha-Park/genpark-fintech-webhook-idempotent-replay-guard-skill) | Cryptographic payment webhook ingestion guard enforcing HMAC-SHA256 signatures, sliding replay tolerance, and atomic idempotency locking. | `FintechWebhookIdempotentGuard` |
+| [`genpark-immutable-double-entry-ledger-kernel-skill`](https://github.com/Alpha-Park/genpark-immutable-double-entry-ledger-kernel-skill) | Mathematical double-entry general ledger kernel enforcing Debits == Credits invariant and hash-chained audit blocks. | `ImmutableDoubleEntryLedger` |
+| [`genpark-smart-dunning-churn-prevention-strategist-skill`](https://github.com/Alpha-Park/genpark-smart-dunning-churn-prevention-strategist-skill) | Autonomous SaaS billing recovery engine optimizing retry cadences for soft vs hard payment declines. | `SmartDunningChurnStrategist` |
+| [`genpark-automated-treasury-cash-sweep-optimizer-skill`](https://github.com/Alpha-Park/genpark-automated-treasury-cash-sweep-optimizer-skill) | Multi-account treasury liquidity manager calculating target operating buffers and yield sweep operations. | `AutomatedTreasuryCashSweepOptimizer` |
+| [`genpark-fintech-transaction-velocity-fraud-sentinel-skill`](https://github.com/Alpha-Park/genpark-fintech-transaction-velocity-fraud-sentinel-skill) | Real-time sliding window fraud and card-testing velocity sentinel scoring transactional risk anomalies. | `FintechTransactionVelocityFraudSentinel` |
+
+---
