@@ -1079,6 +1079,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-verifiable-random-function-vrf-hash-skill](https://github.com/Alpha-Park/genpark-verifiable-random-function-vrf-hash-skill) | Verifiable Random Function (VRF) generating deterministic pseudorandom output with verifiable non-interactive proof | Service | [x] | Standard library |
 | [genpark-feldman-verifiable-secret-sharing-vss-skill](https://github.com/Alpha-Park/genpark-feldman-verifiable-secret-sharing-vss-skill) | Feldman's Verifiable Secret Sharing (VSS) broadcasting public commitments to verify share consistency | Service | [x] | Standard library |
 
+
+### Phase 298: Computational Geometry & Collision Detection
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-gjk-convex-collision-detection-skill](https://github.com/Alpha-Park/genpark-gjk-convex-collision-detection-skill) | Gilbert-Johnson-Keerthi (GJK) convex polytope collision detector using Minkowski difference support mappings | Service | [x] | Standard library |
+| [genpark-epa-penetration-depth-vector-skill](https://github.com/Alpha-Park/genpark-epa-penetration-depth-vector-skill) | Expanding Polytope Algorithm (EPA) calculating contact normal and minimum penetration depth vectors | Service | [x] | Standard library |
+| [genpark-sweep-and-prune-broadphase-collision-skill](https://github.com/Alpha-Park/genpark-sweep-and-prune-broadphase-collision-skill) | Sweep-and-Prune broadphase collision algorithm sorting axis-aligned bounding boxes (AABBs) | Service | [x] | Standard library |
+| [genpark-quadtree-spatial-partitioning-engine-skill](https://github.com/Alpha-Park/genpark-quadtree-spatial-partitioning-engine-skill) | Recursive 2D Quadtree spatial decomposition partitioning points into quadrants with range queries | Service | [x] | Standard library |
+| [genpark-bvh-bounding-volume-hierarchy-ray-tracer-skill](https://github.com/Alpha-Park/genpark-bvh-bounding-volume-hierarchy-ray-tracer-skill) | Bounding Volume Hierarchy (BVH) ray-box intersection engine using slab method for fast ray tracing | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
