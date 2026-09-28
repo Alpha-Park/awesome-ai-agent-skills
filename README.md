@@ -860,6 +860,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-horn-clause-forward-backward-chaining-skill](https://github.com/Alpha-Park/genpark-horn-clause-forward-backward-chaining-skill) | Definite Horn clause deductive engine supporting forward chaining fixpoint and goal-directed backward chaining | Service | [x] | Standard library |
 | [genpark-sequent-calculus-proof-search-engine-skill](https://github.com/Alpha-Park/genpark-sequent-calculus-proof-search-engine-skill) | Gentzen propositional LK sequent calculus automated proof search engine for structural proof theory | Service | [x] | Standard library |
 
+
+### Phase 278: Bioinformatics, Genomic Sequence Alignment & Molecular Geometry
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-smith-waterman-local-sequence-alignment-skill](https://github.com/Alpha-Park/genpark-smith-waterman-local-sequence-alignment-skill) | Smith-Waterman dynamic programming local genomic sequence alignment with gap penalties and score matrix traceback | Service | [x] | Standard library |
+| [genpark-needleman-wunsch-global-sequence-alignment-skill](https://github.com/Alpha-Park/genpark-needleman-wunsch-global-sequence-alignment-skill) | Needleman-Wunsch dynamic programming algorithm for global biological sequence alignment and homological comparison | Service | [x] | Standard library |
+| [genpark-burrows-wheeler-aligner-bwt-fm-index-skill](https://github.com/Alpha-Park/genpark-burrows-wheeler-aligner-bwt-fm-index-skill) | Ferragina-Manzini (FM-index) exact pattern matching and substring counting over genomic sequence collections | Service | [x] | Standard library |
+| [genpark-protein-secondary-structure-chou-fasman-skill](https://github.com/Alpha-Park/genpark-protein-secondary-structure-chou-fasman-skill) | Chou-Fasman statistical conformational propensity predictor for protein secondary structure (helix, sheet, coil) | Service | [x] | Standard library |
+| [genpark-molecular-distance-geometry-rmsd-superposition-skill](https://github.com/Alpha-Park/genpark-molecular-distance-geometry-rmsd-superposition-skill) | Kabsch algorithm for optimal 3D molecular coordinates alignment, rigid translation, and RMSD distance calculation | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
