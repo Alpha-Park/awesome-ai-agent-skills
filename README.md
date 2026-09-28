@@ -820,6 +820,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-cholesky-decomposition-spd-solver-skill](https://github.com/Alpha-Park/genpark-cholesky-decomposition-spd-solver-skill) | Cholesky factorization (A = L L^T) for symmetric positive-definite covariance matrices | Service | [x] | Pure math |
 | [genpark-eigenvalue-power-iteration-jacobi-skill](https://github.com/Alpha-Park/genpark-eigenvalue-power-iteration-jacobi-skill) | Jacobi eigenvalue algorithm for real symmetric matrices and dominant eigenvector power iteration | Service | [x] | Pure math |
 
+
+### Phase 274: Advanced Cryptography, Elliptic Curves & Zero-Knowledge Verification
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-elliptic-curve-secp256k1-point-math-skill](https://github.com/Alpha-Park/genpark-elliptic-curve-secp256k1-point-math-skill) | Weierstrass elliptic curve arithmetic, affine point addition, and double-and-add scalar multiplication | Service | [x] | Standard library |
+| [genpark-shamir-secret-sharing-polynomial-skill](https://github.com/Alpha-Park/genpark-shamir-secret-sharing-polynomial-skill) | Shamir (k, n) threshold secret sharing via Lagrange polynomial interpolation over finite fields | Service | [x] | Pure secrets |
+| [genpark-diffie-hellman-key-exchange-rfc3526-skill](https://github.com/Alpha-Park/genpark-diffie-hellman-key-exchange-rfc3526-skill) | Diffie-Hellman key agreement with RFC 3526 2048-bit MODP groups and HKDF derivation | Service | [x] | Pure hashlib/hmac |
+| [genpark-schnorr-signature-discrete-log-skill](https://github.com/Alpha-Park/genpark-schnorr-signature-discrete-log-skill) | Schnorr signature scheme and non-interactive zero-knowledge identification verification | Service | [x] | Pure hashlib |
+| [genpark-pedersen-commitment-homomorphic-skill](https://github.com/Alpha-Park/genpark-pedersen-commitment-homomorphic-skill) | Homomorphic cryptographic Pedersen commitments with blinding factors and additive verification | Service | [x] | Pure hashlib |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
