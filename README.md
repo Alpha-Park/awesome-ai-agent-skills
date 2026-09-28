@@ -1099,6 +1099,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-poseidon-algebraic-hash-zk-friendly-skill](https://github.com/Alpha-Park/genpark-poseidon-algebraic-hash-zk-friendly-skill) | Poseidon algebraic hash function for STARK/SNARK circuits with S-box power permutations and MDS matrices | Service | [x] | Standard library |
 | [genpark-fiat-shamir-heuristic-interactive-to-nizk-skill](https://github.com/Alpha-Park/genpark-fiat-shamir-heuristic-interactive-to-nizk-skill) | Fiat-Shamir heuristic transformation converting interactive proof transcripts into non-interactive zero-knowledge arguments | Service | [x] | Standard library |
 
+
+### Phase 300: TRICENTENNIAL MILESTONE - Quantum Computing, Circuits & Information
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-quantum-statevector-circuit-simulator-skill](https://github.com/Alpha-Park/genpark-quantum-statevector-circuit-simulator-skill) | Full n-qubit complex statevector simulator supporting Hadamard, CNOT, Phase, and Pauli gates with unitary evolution | Service | [x] | Standard library |
+| [genpark-quantum-fourier-transform-qft-circuit-skill](https://github.com/Alpha-Park/genpark-quantum-fourier-transform-qft-circuit-skill) | Exact Quantum Fourier Transform (QFT) circuit generator and inverse QFT over n-qubit registers | Service | [x] | Standard library |
+| [genpark-grovers-search-amplitude-amplification-skill](https://github.com/Alpha-Park/genpark-grovers-search-amplitude-amplification-skill) | Grover's quantum search algorithm with phase inversion oracle and diffusion reflection operator | Service | [x] | Standard library |
+| [genpark-quantum-teleportation-entanglement-protocol-skill](https://github.com/Alpha-Park/genpark-quantum-teleportation-entanglement-protocol-skill) | 3-qubit quantum teleportation protocol utilizing Bell state entanglement and classical feedforward correction | Service | [x] | Standard library |
+| [genpark-pauli-algebra-stabilizer-measurement-skill](https://github.com/Alpha-Park/genpark-pauli-algebra-stabilizer-measurement-skill) | Pauli group algebra matrices with tensor products, commutation relations, and stabilizer projection | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
