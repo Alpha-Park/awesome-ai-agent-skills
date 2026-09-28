@@ -978,3 +978,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-lsm-tree-sstable-compaction-skill](https://github.com/Alpha-Park/genpark-lsm-tree-sstable-compaction-skill) | LSM Tree storage engine with in-memory MemTable & SSTable flush | Service | [x] | Standard library |
 | [genpark-mvcc-transaction-isolation-engine-skill](https://github.com/Alpha-Park/genpark-mvcc-transaction-isolation-engine-skill) | Multi-Version Concurrency Control (MVCC) snapshot isolation | Service | [x] | Standard library |
 | [genpark-cost-based-query-optimizer-skill](https://github.com/Alpha-Park/genpark-cost-based-query-optimizer-skill) | Cost-based relational query optimizer evaluating join algorithms | Service | [x] | Standard library |
+
+
+### Phase 268: Operating Systems Internals, CPU Scheduling & Memory Page Replacement
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-cpu-scheduler-round-robin-cfs-skill](https://github.com/Alpha-Park/genpark-cpu-scheduler-round-robin-cfs-skill) | Preemptive CPU scheduling simulator with Round-Robin & quantum slicing | Service | [x] | Pure collections |
+| [genpark-page-replacement-lru-clock-lfu-skill](https://github.com/Alpha-Park/genpark-page-replacement-lru-clock-lfu-skill) | Virtual memory page replacement simulation (LRU & Second-Chance Clock) | Service | [x] | Standard library |
+| [genpark-deadlock-detector-banker-resource-graph-skill](https://github.com/Alpha-Park/genpark-deadlock-detector-banker-resource-graph-skill) | Dijkstra's Banker's algorithm for safe resource state & deadlock avoidance | Service | [x] | Standard library |
+| [genpark-virtual-memory-tlb-page-table-skill](https://github.com/Alpha-Park/genpark-virtual-memory-tlb-page-table-skill) | Virtual memory address translation simulator with TLB caching | Service | [x] | Pure collections |
+| [genpark-disk-arm-scheduler-elevator-scan-skill](https://github.com/Alpha-Park/genpark-disk-arm-scheduler-elevator-scan-skill) | Hard disk head scheduling algorithms (SCAN / Elevator algorithm) | Service | [x] | Standard library |
