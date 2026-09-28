@@ -821,3 +821,18 @@ Hierarchical episodic memory with recency decay, zero-dependency BM25 & Cosine R
 | [`genpark-context-window-lost-in-middle-reorderer-skill`](https://github.com/Alpha-Park/genpark-context-window-lost-in-middle-reorderer-skill) | Context window attention optimizer reordering retrieved documents to place critical evidence at prompt boundaries, mitigating lost-in-the-middle degradation. | `ContextWindowLostInMiddleReorderer` |
 
 ---
+
+
+
+### 🛡️ 10. Autonomous Agent Safety, Sandbox & Execution Guardrails (Phase 252)
+Bash command AST sandbox guard, multi-vector prompt injection & jailbreak sentinel, real-time token spend circuit breaker, differential privacy noise injector, and deadlock infinite loop detector.
+
+| Skill Name | Description | Python Client |
+|:---|:---|:---|
+| [`genpark-agent-bash-command-sandbox-guard-skill`](https://github.com/Alpha-Park/genpark-agent-bash-command-sandbox-guard-skill) | Zero-dependency AST & heuristic bash command sandbox guard blocking destructive system mutations, path traversals, and reverse shells. | `AgentBashCommandSandboxGuard` |
+| [`genpark-agent-prompt-injection-jailbreak-sentinel-skill`](https://github.com/Alpha-Park/genpark-agent-prompt-injection-jailbreak-sentinel-skill) | Multi-vector heuristic prompt injection and jailbreak detector analyzing system overrides, delimiter breakouts, and base64 payload evasion. | `AgentPromptInjectionJailbreakSentinel` |
+| [`genpark-agent-budget-token-spend-circuit-breaker-skill`](https://github.com/Alpha-Park/genpark-agent-budget-token-spend-circuit-breaker-skill) | Autonomous financial circuit breaker tracking real-time token burn and cost velocity with automated throttling and emergency freeze. | `AgentBudgetTokenSpendCircuitBreaker` |
+| [`genpark-agent-synthetic-data-differential-privacy-guard-skill`](https://github.com/Alpha-Park/genpark-agent-synthetic-data-differential-privacy-guard-skill) | Differential privacy epsilon-noise generator and quasi-identifier redaction kernel protecting tabular data releases from re-identification. | `AgentSyntheticDataDifferentialPrivacyGuard` |
+| [`genpark-agent-deadlock-liveloss-loop-detector-skill`](https://github.com/Alpha-Park/genpark-agent-deadlock-liveloss-loop-detector-skill) | Trajectory state entropy and cyclic repetition detector identifying autonomous agent infinite tool loops and planning deadlocks. | `AgentDeadlockLivelossLoopDetector` |
+
+---
