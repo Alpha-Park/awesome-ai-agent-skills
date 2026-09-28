@@ -20,6 +20,21 @@ These three packages have focused regression tests and an official MCP client st
 Install the wheel from the respective GitHub Release, or use its MCPB bundle with a compatible client.
 PyPI publication and third-party registry acceptance are tracked independently in each repository.
 
+## Published on Smithery
+
+Eight local Python MCPB servers are published as of 2026-09-28. Each has regression tests and an official MCP SDK connection check. Python 3.9+ is required. These are downloadable local tools, not hosted services.
+
+| Server | Tools | Actual scope |
+| --- | --- | --- |
+| [genpark-voice-vad](https://smithery.ai/servers/krispang1020/genpark-voice-vad) | 4 | Energy and transcript heuristics for voice turn endpoint detection. |
+| [genpark-jitter-buffer](https://smithery.ai/servers/krispang1020/genpark-jitter-buffer) | 4 | Packet ordering simulation and inter-arrival jitter telemetry. |
+| [genpark-financial-audit](https://smithery.ai/servers/krispang1020/genpark-financial-audit) | 4 | Arithmetic consistency checks for supplied financial statement data. |
+| [genpark-ocr-table](https://smithery.ai/servers/krispang1020/genpark-ocr-table) | 3 | Group supplied OCR text boxes into left-aligned table rows and columns. No image OCR is performed. |
+| [genpark-clause-references](https://smithery.ai/servers/krispang1020/genpark-clause-references) | 5 | Extract English defined terms and explicit numbered references from supplied contract text; inspect dependency cycles. Regex heuristics, not legal analysis. |
+| [genpark-chart-coordinates](https://smithery.ai/servers/krispang1020/genpark-chart-coordinates) | 4 | Calibrate linear chart axes and convert supplied bar or scatter pixel coordinates to values. No image recognition or logarithmic axes. |
+| [genpark-voice-latency](https://smithery.ai/servers/krispang1020/genpark-voice-latency) | 4 | Record supplied voice pipeline timestamps in session memory and calculate latency, bottlenecks and nearest-rank percentiles. No automatic instrumentation. |
+| [genpark-barge-in](https://smithery.ai/servers/krispang1020/genpark-barge-in) | 4 | Apply transcript, supplied echo score and duration rules to conversational interruptions; estimate playback truncation. No audio echo detection or playback control. |
+
 ## Browse by category
 
 - [Voice and audio](#voice-and-audio) (20)
