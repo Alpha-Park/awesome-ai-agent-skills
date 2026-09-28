@@ -890,6 +890,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-gale-shapley-deferred-acceptance-matching-skill](https://github.com/Alpha-Park/genpark-gale-shapley-deferred-acceptance-matching-skill) | Gale-Shapley deferred acceptance algorithm for stable two-sided matching and market design | Service | [x] | Standard library |
 | [genpark-fictitious-play-regret-matching-game-skill](https://github.com/Alpha-Park/genpark-fictitious-play-regret-matching-game-skill) | Hart-Mas-Colell regret matching and fictitious play learning dynamics converging to correlated equilibria | Service | [x] | Standard library |
 
+
+### Phase 281: Stochastic Calculus, Monte Carlo Simulation & SDEs
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-geometric-brownian-motion-euler-maruyama-skill](https://github.com/Alpha-Park/genpark-geometric-brownian-motion-euler-maruyama-skill) | Euler-Maruyama and Milstein numerical discretization solvers for Itô Stochastic Differential Equations (SDEs) | Service | [x] | Standard library |
+| [genpark-ornstein-uhlenbeck-mean-reversion-process-skill](https://github.com/Alpha-Park/genpark-ornstein-uhlenbeck-mean-reversion-process-skill) | Ornstein-Uhlenbeck mean-reverting stochastic process with exact transition distributions and Vasicek calibration | Service | [x] | Standard library |
+| [genpark-heston-stochastic-volatility-cir-process-skill](https://github.com/Alpha-Park/genpark-heston-stochastic-volatility-cir-process-skill) | Heston two-factor stochastic volatility model with Cox-Ingersoll-Ross (CIR) variance and Feller condition checking | Service | [x] | Standard library |
+| [genpark-gillespie-stochastic-simulation-chemical-master-skill](https://github.com/Alpha-Park/genpark-gillespie-stochastic-simulation-chemical-master-skill) | Gillespie stochastic simulation algorithm (SSA / Direct Method) for jump Markov processes and chemical kinetics | Service | [x] | Standard library |
+| [genpark-markov-chain-monte-carlo-metropolis-hastings-skill](https://github.com/Alpha-Park/genpark-markov-chain-monte-carlo-metropolis-hastings-skill) | Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler with Gaussian proposals and diagnostic statistics | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
