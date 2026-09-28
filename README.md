@@ -988,3 +988,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-deadlock-detector-banker-resource-graph-skill](https://github.com/Alpha-Park/genpark-deadlock-detector-banker-resource-graph-skill) | Dijkstra's Banker's algorithm for safe resource state & deadlock avoidance | Service | [x] | Standard library |
 | [genpark-virtual-memory-tlb-page-table-skill](https://github.com/Alpha-Park/genpark-virtual-memory-tlb-page-table-skill) | Virtual memory address translation simulator with TLB caching | Service | [x] | Pure collections |
 | [genpark-disk-arm-scheduler-elevator-scan-skill](https://github.com/Alpha-Park/genpark-disk-arm-scheduler-elevator-scan-skill) | Hard disk head scheduling algorithms (SCAN / Elevator algorithm) | Service | [x] | Standard library |
+
+
+### Phase 269: Computer Graphics, 3D Geometry, Ray Tracing & Quaternion Rotations
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-ray-tracer-sphere-plane-shading-skill](https://github.com/Alpha-Park/genpark-ray-tracer-sphere-plane-shading-skill) | 3D Whitted ray tracer with sphere/plane intersections & Phong shading | Service | [x] | Pure math |
+| [genpark-quaternion-rotation-slerp-skill](https://github.com/Alpha-Park/genpark-quaternion-rotation-slerp-skill) | Unit quaternion 3D rotation, Hamiltonian products & SLERP interpolation | Service | [x] | Pure math |
+| [genpark-mesh-obj-reader-poly-triangulator-skill](https://github.com/Alpha-Park/genpark-mesh-obj-reader-poly-triangulator-skill) | 3D mesh processor with Wavefront OBJ reader & polygon triangulation | Service | [x] | Standard library |
+| [genpark-matrix4x4-perspective-projection-pipeline-skill](https://github.com/Alpha-Park/genpark-matrix4x4-perspective-projection-pipeline-skill) | Homogeneous 4x4 matrix pipeline with perspective frustum projection | Service | [x] | Pure math |
+| [genpark-bezier-curve-surface-evaluator-skill](https://github.com/Alpha-Park/genpark-bezier-curve-surface-evaluator-skill) | Parametric polynomial curves with de Casteljau's algorithm | Service | [x] | Standard library |
