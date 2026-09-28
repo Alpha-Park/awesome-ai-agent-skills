@@ -790,6 +790,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 - [Zk rollup state transition circuit](https://github.com/Alpha-Park/genpark-zk-rollup-state-transition-circuit-skill)
 - [Zx calculus circuit rewriter](https://github.com/Alpha-Park/genpark-zx-calculus-circuit-rewriter-skill)
 
+
+### Phase 271: Computer Networking, Socket Protocols & Packet Filtering
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-tcp-ip-packet-checksum-parser-skill](https://github.com/Alpha-Park/genpark-tcp-ip-packet-checksum-parser-skill) | IPv4 header serialization, Internet checksum verification, and raw packet parsing engine | Service | [x] | Pure struct/socket |
+| [genpark-leaky-bucket-token-bucket-rate-limiter-skill](https://github.com/Alpha-Park/genpark-leaky-bucket-token-bucket-rate-limiter-skill) | Token Bucket and Leaky Bucket traffic shaping, burst control, and API rate limiting engine | Service | [x] | Standard library |
+| [genpark-sliding-window-flow-control-skill](https://github.com/Alpha-Park/genpark-sliding-window-flow-control-skill) | TCP sliding window flow control protocol with cumulative ACK and buffer management | Service | [x] | Standard library |
+| [genpark-cidr-subnet-ip-routing-table-skill](https://github.com/Alpha-Park/genpark-cidr-subnet-ip-routing-table-skill) | CIDR IP prefix routing table with Longest Prefix Match (LPM) and subnet decomposition | Service | [x] | Standard library |
+| [genpark-dns-wire-protocol-parser-skill](https://github.com/Alpha-Park/genpark-dns-wire-protocol-parser-skill) | DNS binary wire format packet builder, label compression reader, and header parser | Service | [x] | Pure struct |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
