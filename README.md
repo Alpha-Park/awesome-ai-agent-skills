@@ -928,3 +928,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-harris-corner-feature-detector-skill](https://github.com/Alpha-Park/genpark-harris-corner-feature-detector-skill) | Harris corner & interest point autocorrelation detector | Service | [x] | Standard library |
 | [genpark-hough-transform-line-circle-skill](https://github.com/Alpha-Park/genpark-hough-transform-line-circle-skill) | Hough Transform parametric space voting accumulator | Service | [x] | Pure math |
 | [genpark-image-connected-components-labeling-skill](https://github.com/Alpha-Park/genpark-image-connected-components-labeling-skill) | Two-pass CCL image segmenter with disjoint-set Union-Find | Service | [x] | Standard library |
+
+
+### Phase 263: Natural Language Tokenization, Byte-Pair Encoding & Text Similarity
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-bpe-tokenizer-byte-pair-encoder-skill](https://github.com/Alpha-Park/genpark-bpe-tokenizer-byte-pair-encoder-skill) | Byte-Pair Encoding (BPE) subword tokenizer trainer and encoder | Service | [x] | Standard library |
+| [genpark-tfidf-vectorizer-cosine-similarity-skill](https://github.com/Alpha-Park/genpark-tfidf-vectorizer-cosine-similarity-skill) | TF-IDF smooth vectorizer & pairwise cosine similarity engine | Service | [x] | Pure math/re |
+| [genpark-bm25-okapi-document-ranker-skill](https://github.com/Alpha-Park/genpark-bm25-okapi-document-ranker-skill) | Okapi BM25 relevance scorer with document length normalization | Service | [x] | Pure math/re |
+| [genpark-levenshtein-damerau-fuzzy-matcher-skill](https://github.com/Alpha-Park/genpark-levenshtein-damerau-fuzzy-matcher-skill) | Damerau-Levenshtein transposition distance & candidate ranker | Service | [x] | Standard library |
+| [genpark-minhash-lsh-document-deduplicator-skill](https://github.com/Alpha-Park/genpark-minhash-lsh-document-deduplicator-skill) | MinHash & LSH near-duplicate Jaccard similarity estimator | Service | [x] | Pure re/hash |
