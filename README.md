@@ -1039,6 +1039,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-hoare-logic-axiomatic-verifier-skill](https://github.com/Alpha-Park/genpark-hoare-logic-axiomatic-verifier-skill) | Axiomatic Hoare logic verification condition generator (VCG) for imperative programs with loop invariants | Service | [x] | Standard library |
 | [genpark-hindley-milner-type-inference-skill](https://github.com/Alpha-Park/genpark-hindley-milner-type-inference-skill) | Hindley-Milner Algorithm W polymorphic type inference engine with unification and constraint solving | Service | [x] | Standard library |
 
+
+### Phase 294: Memory Management, Allocators & Garbage Collection
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-slab-allocator-kernel-memory-cache-skill](https://github.com/Alpha-Park/genpark-slab-allocator-kernel-memory-cache-skill) | Kernel-style Slab memory allocator with fixed-size cache pools, freelists, and slab expansion | Service | [x] | Standard library |
+| [genpark-buddy-memory-allocator-binary-tree-skill](https://github.com/Alpha-Park/genpark-buddy-memory-allocator-binary-tree-skill) | Binary buddy system memory allocator managing power-of-two blocks, coalescing, and split operations | Service | [x] | Standard library |
+| [genpark-mark-sweep-tri-color-gc-skill](https://github.com/Alpha-Park/genpark-mark-sweep-tri-color-gc-skill) | Tri-color abstraction mark-and-sweep garbage collection engine with worklist traversal | Service | [x] | Standard library |
+| [genpark-refcount-cycle-detection-bacon-rajan-skill](https://github.com/Alpha-Park/genpark-refcount-cycle-detection-bacon-rajan-skill) | Reference counting engine with Bacon-Rajan trial deletion cycle collection | Service | [x] | Standard library |
+| [genpark-generational-garbage-collector-card-table-skill](https://github.com/Alpha-Park/genpark-generational-garbage-collector-card-table-skill) | Generational GC with nursery and mature generations using write-barrier card table tracking | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
