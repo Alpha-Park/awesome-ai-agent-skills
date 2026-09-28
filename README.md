@@ -908,3 +908,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-quantum-measurement-born-rule-sampler-skill](https://github.com/alphaparkinc/genpark-quantum-measurement-born-rule-sampler-skill)**: Projective quantum measurement engine sampling qubit collapses via Born's rule with Monte Carlo shot histograms.
 - **[genpark-quantum-teleportation-entanglement-circuit-skill](https://github.com/alphaparkinc/genpark-quantum-teleportation-entanglement-circuit-skill)**: EPR Bell state generator creating maximally entangled qubit pairs (|Phi+>) for quantum communications and teleportation protocols.
 - **[genpark-quantum-grover-search-oracle-amplifier-skill](https://github.com/alphaparkinc/genpark-quantum-grover-search-oracle-amplifier-skill)**: Grover's quantum search amplitude amplification engine demonstrating quadratic speedup for unstructured database queries via phase inversion oracles.
+
+
+### Phase 261: Multi-Modal Audio Signal DSP, Psychoacoustics & Waveform Synthesis
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-stft-spectrogram-mel-filterbank-skill](https://github.com/Alpha-Park/genpark-stft-spectrogram-mel-filterbank-skill) | STFT Hann windowing & triangular Mel-filterbank energy extraction | Service | [x] | Pure math/cmath |
+| [genpark-adsr-envelope-wavetable-synth-skill](https://github.com/Alpha-Park/genpark-adsr-envelope-wavetable-synth-skill) | ADSR envelope generator & wavetable multi-waveform synthesis | Service | [x] | Pure math |
+| [genpark-biquad-iir-filter-dsp-skill](https://github.com/Alpha-Park/genpark-biquad-iir-filter-dsp-skill) | 2nd-order Direct Form IIR filter with Bode frequency response | Service | [x] | Pure math/cmath |
+| [genpark-dynamic-range-compressor-limiter-skill](https://github.com/Alpha-Park/genpark-dynamic-range-compressor-limiter-skill) | Soft-knee dynamic range compressor & peak ballistics limiter | Service | [x] | Pure math |
+| [genpark-voice-pitch-yin-autocorrelation-skill](https://github.com/Alpha-Park/genpark-voice-pitch-yin-autocorrelation-skill) | Fundamental frequency (F0) pitch detector using YIN algorithm | Service | [x] | Pure math |
