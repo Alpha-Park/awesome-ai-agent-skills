@@ -851,3 +851,18 @@ DOM semantic tree pruner with 80%+ token reduction, form input schema auto-mappe
 | [`genpark-markdown-table-to-json-transformer-skill`](https://github.com/Alpha-Park/genpark-markdown-table-to-json-transformer-skill) | Zero-dependency Markdown table to structured JSON transformer with automated column type inference and format normalization. | `MarkdownTableToJsonTransformer` |
 
 ---
+
+
+
+### 📊 12. Data Science, Statistics & Time-Series Anomaly Detection (Phase 254)
+Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tukey IQR anomaly detector, multivariate gradient descent linear regression, Welch's two-sample t-test evaluator, and Power Iteration SVD/PCA dimensionality reducer.
+
+| Skill Name | Description | Python Client |
+|:---|:---|:---|
+| [`genpark-time-series-exponential-smoothing-forecaster-skill`](https://github.com/Alpha-Park/genpark-time-series-exponential-smoothing-forecaster-skill) | Zero-dependency Holt linear exponential smoothing engine forecasting numerical trends with multi-step horizon and variance confidence bands. | `TimeSeriesExponentialSmoothingForecaster` |
+| [`genpark-statistical-zscore-iqr-anomaly-detector-skill`](https://github.com/Alpha-Park/genpark-statistical-zscore-iqr-anomaly-detector-skill) | Multi-strategy anomaly detector computing standard Z-score, modified median absolute deviation (MAD), and Tukey IQR fences on numerical streams. | `StatisticalZscoreIqrAnomalyDetector` |
+| [`genpark-linear-regression-gradient-descent-engine-skill`](https://github.com/Alpha-Park/genpark-linear-regression-gradient-descent-engine-skill) | Multivariate linear regression engine computing MSE loss, analytical gradient descent weights, and R-squared coefficient of determination. | `LinearRegressionGradientDescentEngine` |
+| [`genpark-hypothesis-welch-t-test-statistical-evaluator-skill`](https://github.com/Alpha-Park/genpark-hypothesis-welch-t-test-statistical-evaluator-skill) | Two-sample Welch's t-test hypothesis evaluator computing Satterthwaite degrees of freedom and two-tailed p-values for A/B testing. | `HypothesisWelchTTestEvaluator` |
+| [`genpark-data-matrix-svd-pca-dimensionality-reducer-skill`](https://github.com/Alpha-Park/genpark-data-matrix-svd-pca-dimensionality-reducer-skill) | Zero-dependency Power Iteration PCA dimensionality reducer projecting high-dimensional feature vectors into principal component representations. | `DataMatrixSvdPcaDimensionalityReducer` |
+
+---
