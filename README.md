@@ -870,6 +870,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-protein-secondary-structure-chou-fasman-skill](https://github.com/Alpha-Park/genpark-protein-secondary-structure-chou-fasman-skill) | Chou-Fasman statistical conformational propensity predictor for protein secondary structure (helix, sheet, coil) | Service | [x] | Standard library |
 | [genpark-molecular-distance-geometry-rmsd-superposition-skill](https://github.com/Alpha-Park/genpark-molecular-distance-geometry-rmsd-superposition-skill) | Kabsch algorithm for optimal 3D molecular coordinates alignment, rigid translation, and RMSD distance calculation | Service | [x] | Standard library |
 
+
+### Phase 279: Convex Optimization, Quadratic Programming & Constrained Solvers
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-simplex-algorithm-linear-programming-skill](https://github.com/Alpha-Park/genpark-simplex-algorithm-linear-programming-skill) | Simplex tableau algorithm for primal linear programming (LP) with slack variables and pivot operations | Service | [x] | Standard library |
+| [genpark-bfgs-quasi-newton-line-search-skill](https://github.com/Alpha-Park/genpark-bfgs-quasi-newton-line-search-skill) | Broyden-Fletcher-Goldfarb-Shanno (BFGS) quasi-Newton optimization with backtracking Armijo line search | Service | [x] | Standard library |
+| [genpark-admm-distributed-consensus-optimization-skill](https://github.com/Alpha-Park/genpark-admm-distributed-consensus-optimization-skill) | Alternating Direction Method of Multipliers (ADMM) for Lasso sparse regression and distributed consensus optimization | Service | [x] | Standard library |
+| [genpark-quadratic-programming-active-set-skill](https://github.com/Alpha-Park/genpark-quadratic-programming-active-set-skill) | Active-set Karush-Kuhn-Tucker (KKT) quadratic programming (QP) solver for quadratic costs with equality/inequality constraints | Service | [x] | Standard library |
+| [genpark-interior-point-primal-dual-barrier-skill](https://github.com/Alpha-Park/genpark-interior-point-primal-dual-barrier-skill) | Logarithmic barrier interior-point method for non-linear inequality constrained convex optimization | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
