@@ -866,3 +866,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [`genpark-data-matrix-svd-pca-dimensionality-reducer-skill`](https://github.com/Alpha-Park/genpark-data-matrix-svd-pca-dimensionality-reducer-skill) | Zero-dependency Power Iteration PCA dimensionality reducer projecting high-dimensional feature vectors into principal component representations. | `DataMatrixSvdPcaDimensionalityReducer` |
 
 ---
+\n
+### ⚡ Edge AI, Quantization & On-Device Model Acceleration Agent Skills (Phase 255)
+- **[genpark-int8-symmetric-per-tensor-quantizer-skill](https://github.com/alphaparkinc/genpark-int8-symmetric-per-tensor-quantizer-skill)**: Symmetric INT8 per-tensor and per-channel quantization engine for LLM weights and activations, with SNR and MSE reconstruction telemetry.
+- **[genpark-kv-cache-paged-attention-allocator-skill](https://github.com/alphaparkinc/genpark-kv-cache-paged-attention-allocator-skill)**: Virtual paged attention KV-cache memory manager with logical block mapping, non-contiguous physical page allocation, and zero-copy fragmentation tracking.
+- **[genpark-speculative-decoding-verifier-skill](https://github.com/alphaparkinc/genpark-speculative-decoding-verifier-skill)**: Draft-target model speculative decoding verification engine with rejection sampling, acceptance rate telemetry, and dynamic speedup ratio estimation.
+- **[genpark-dynamic-prompt-prefix-cache-skill](https://github.com/alphaparkinc/genpark-dynamic-prompt-prefix-cache-skill)**: Radix trie-based prompt prefix cache optimizer matching longest common prompt token prefixes to eliminate redundant prefill computation and reduce TTFT.
+- **[genpark-edge-inference-latency-telemetry-skill](https://github.com/alphaparkinc/genpark-edge-inference-latency-telemetry-skill)**: High-precision edge and on-device LLM inference profiler calculating TTFT, TPOT, tokens/second throughput, and percentile jitter distributions (P50/P90/P99).
