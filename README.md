@@ -968,3 +968,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-stack-bytecode-virtual-machine-skill](https://github.com/Alpha-Park/genpark-stack-bytecode-virtual-machine-skill) | Stack-based bytecode virtual machine interpreter & operand stack | Service | [x] | Standard library |
 | [genpark-lisp-scheme-s-expression-evaluator-skill](https://github.com/Alpha-Park/genpark-lisp-scheme-s-expression-evaluator-skill) | Minimalist Lisp / Scheme S-expression reader & environment frames | Service | [x] | Pure math |
 | [genpark-type-checker-hindley-milner-skill](https://github.com/Alpha-Park/genpark-type-checker-hindley-milner-skill) | Hindley-Milner type inference engine with Algorithm W unification | Service | [x] | Standard library |
+
+
+### Phase 267: Database Internals, B-Tree Indexes & Write-Ahead Logging (WAL)
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-b-tree-disk-storage-index-skill](https://github.com/Alpha-Park/genpark-b-tree-disk-storage-index-skill) | B+ Tree indexing engine with leaf pagination & range queries | Service | [x] | Pure bisect |
+| [genpark-wal-write-ahead-log-recovery-skill](https://github.com/Alpha-Park/genpark-wal-write-ahead-log-recovery-skill) | ARIES-style Write-Ahead Logging (WAL) crash redo/undo recovery | Service | [x] | Standard library |
+| [genpark-lsm-tree-sstable-compaction-skill](https://github.com/Alpha-Park/genpark-lsm-tree-sstable-compaction-skill) | LSM Tree storage engine with in-memory MemTable & SSTable flush | Service | [x] | Standard library |
+| [genpark-mvcc-transaction-isolation-engine-skill](https://github.com/Alpha-Park/genpark-mvcc-transaction-isolation-engine-skill) | Multi-Version Concurrency Control (MVCC) snapshot isolation | Service | [x] | Standard library |
+| [genpark-cost-based-query-optimizer-skill](https://github.com/Alpha-Park/genpark-cost-based-query-optimizer-skill) | Cost-based relational query optimizer evaluating join algorithms | Service | [x] | Standard library |
