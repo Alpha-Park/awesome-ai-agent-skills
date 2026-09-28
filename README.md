@@ -998,3 +998,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-mesh-obj-reader-poly-triangulator-skill](https://github.com/Alpha-Park/genpark-mesh-obj-reader-poly-triangulator-skill) | 3D mesh processor with Wavefront OBJ reader & polygon triangulation | Service | [x] | Standard library |
 | [genpark-matrix4x4-perspective-projection-pipeline-skill](https://github.com/Alpha-Park/genpark-matrix4x4-perspective-projection-pipeline-skill) | Homogeneous 4x4 matrix pipeline with perspective frustum projection | Service | [x] | Pure math |
 | [genpark-bezier-curve-surface-evaluator-skill](https://github.com/Alpha-Park/genpark-bezier-curve-surface-evaluator-skill) | Parametric polynomial curves with de Casteljau's algorithm | Service | [x] | Standard library |
+
+
+### Phase 270: Autonomous Multi-Agent Swarm Orchestration, Task DAG Scheduling & Blackboard Architecture
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-blackboard-architecture-shared-memory-skill](https://github.com/Alpha-Park/genpark-blackboard-architecture-shared-memory-skill) | Blackboard pattern coordination with Knowledge Sources & agenda | Service | [x] | Standard library |
+| [genpark-task-dag-critical-path-scheduler-skill](https://github.com/Alpha-Park/genpark-task-dag-critical-path-scheduler-skill) | Directed Acyclic Graph (DAG) scheduler with Critical Path Method (CPM) | Service | [x] | Pure collections |
+| [genpark-contract-net-protocol-task-auctioneer-skill](https://github.com/Alpha-Park/genpark-contract-net-protocol-task-auctioneer-skill) | FIPA Contract Net Protocol (CNP) multi-agent auction coordinator | Service | [x] | Standard library |
+| [genpark-subsumption-architecture-behavior-arbitration-skill](https://github.com/Alpha-Park/genpark-subsumption-architecture-behavior-arbitration-skill) | Brooks' Subsumption Architecture behavior priority arbitration | Service | [x] | Standard library |
+| [genpark-bdi-belief-desire-intention-agent-skill](https://github.com/Alpha-Park/genpark-bdi-belief-desire-intention-agent-skill) | Belief-Desire-Intention (BDI) deliberative agent architecture | Service | [x] | Standard library |
