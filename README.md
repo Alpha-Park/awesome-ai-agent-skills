@@ -830,6 +830,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-schnorr-signature-discrete-log-skill](https://github.com/Alpha-Park/genpark-schnorr-signature-discrete-log-skill) | Schnorr signature scheme and non-interactive zero-knowledge identification verification | Service | [x] | Pure hashlib |
 | [genpark-pedersen-commitment-homomorphic-skill](https://github.com/Alpha-Park/genpark-pedersen-commitment-homomorphic-skill) | Homomorphic cryptographic Pedersen commitments with blinding factors and additive verification | Service | [x] | Pure hashlib |
 
+
+### Phase 275: Neural Network Architectures, Backpropagation & Automatic Differentiation
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-scalar-autograd-computational-graph-skill](https://github.com/Alpha-Park/genpark-scalar-autograd-computational-graph-skill) | Reverse-mode automatic differentiation engine with DAG tape and chain rule backpropagation | Service | [x] | Standard library |
+| [genpark-dense-feedforward-mlp-backprop-skill](https://github.com/Alpha-Park/genpark-dense-feedforward-mlp-backprop-skill) | Dense multi-layer perceptron forward propagation, Xavier initialization, and gradient descent | Service | [x] | Standard library |
+| [genpark-multi-head-scaled-dot-product-attention-skill](https://github.com/Alpha-Park/genpark-multi-head-scaled-dot-product-attention-skill) | Multi-head self-attention mechanism with scaled dot-product scoring and causal masking | Service | [x] | Standard library |
+| [genpark-convolutional-2d-forward-backward-skill](https://github.com/Alpha-Park/genpark-convolutional-2d-forward-backward-skill) | 2D spatial convolution forward and backpropagation with kernel padding and strides | Service | [x] | Standard library |
+| [genpark-layer-norm-rms-norm-regularization-skill](https://github.com/Alpha-Park/genpark-layer-norm-rms-norm-regularization-skill) | Layer normalization and RMSNorm regularization for transformer hidden representations | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
