@@ -999,6 +999,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-weisfeiler-lehman-graph-isomorphism-skill](https://github.com/Alpha-Park/genpark-weisfeiler-lehman-graph-isomorphism-skill) | 1-dimensional Weisfeiler-Lehman (WL) graph coloring kernel for graph isomorphism testing | Service | [x] | Standard library |
 | [genpark-label-propagation-semi-supervised-graph-skill](https://github.com/Alpha-Park/genpark-label-propagation-semi-supervised-graph-skill) | Semi-supervised Label Propagation Algorithm (LPA) for graph node classification and community clustering | Service | [x] | Standard library |
 
+
+### Phase 290: Deep Reinforcement Learning, Policy Gradients & Actor-Critic
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-reinforce-policy-gradient-baseline-skill](https://github.com/Alpha-Park/genpark-reinforce-policy-gradient-baseline-skill) | REINFORCE Monte Carlo policy gradient algorithm with running baseline advantage subtraction | Service | [x] | Standard library |
+| [genpark-ppo-clipped-surrogate-objective-skill](https://github.com/Alpha-Park/genpark-ppo-clipped-surrogate-objective-skill) | Proximal Policy Optimization (PPO) clipped surrogate objective evaluator and policy ratio limiter | Service | [x] | Standard library |
+| [genpark-dqn-replay-buffer-target-network-skill](https://github.com/Alpha-Park/genpark-dqn-replay-buffer-target-network-skill) | Deep Q-Network experience replay buffer and Polyak target network averaging engine | Service | [x] | Standard library |
+| [genpark-gae-generalized-advantage-estimation-skill](https://github.com/Alpha-Park/genpark-gae-generalized-advantage-estimation-skill) | Generalized Advantage Estimation (GAE-Lambda) exponentially weighted temporal difference calculator | Service | [x] | Standard library |
+| [genpark-sac-maximum-entropy-rl-evaluator-skill](https://github.com/Alpha-Park/genpark-sac-maximum-entropy-rl-evaluator-skill) | Soft Actor-Critic (SAC) maximum entropy policy value and soft Bellman target evaluator | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
