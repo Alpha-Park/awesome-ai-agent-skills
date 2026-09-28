@@ -969,6 +969,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-ldpc-tanner-graph-belief-propagation-skill](https://github.com/Alpha-Park/genpark-ldpc-tanner-graph-belief-propagation-skill) | Low-Density Parity-Check (LDPC) Tanner graph belief propagation decoder with sum-product LLR message passing | Service | [x] | Standard library |
 | [genpark-shannon-entropy-channel-capacity-awgn-skill](https://github.com/Alpha-Park/genpark-shannon-entropy-channel-capacity-awgn-skill) | Shannon-Hartley AWGN channel capacity theorem, mutual information, and binary symmetric channel limits | Service | [x] | Standard library |
 
+
+### Phase 287: Asynchronous Runtimes, Actor Systems & Lock-Free Concurrency
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-async-event-loop-reactor-scheduler-skill](https://github.com/Alpha-Park/genpark-async-event-loop-reactor-scheduler-skill) | Cooperative asynchronous event loop with microtask queues, timer heaps, Future/Task resolution, and task cancellation | Service | [x] | Standard library |
+| [genpark-actor-model-supervision-tree-skill](https://github.com/Alpha-Park/genpark-actor-model-supervision-tree-skill) | Erlang/OTP-style GenServer Actor model with isolated mailboxes, synchronous call, and one-for-one supervisor restart | Service | [x] | Standard library |
+| [genpark-csp-channel-multiplexing-pipeline-skill](https://github.com/Alpha-Park/genpark-csp-channel-multiplexing-pipeline-skill) | Communicating Sequential Processes (CSP) Go-style channel pipeline with nonblocking select multiplexing | Service | [x] | Standard library |
+| [genpark-disruptor-lock-free-ring-buffer-skill](https://github.com/Alpha-Park/genpark-disruptor-lock-free-ring-buffer-skill) | LMAX Disruptor-inspired lock-free high-throughput ring buffer with sequence barriers and multi-consumer gating | Service | [x] | Standard library |
+| [genpark-work-stealing-thread-pool-deque-skill](https://github.com/Alpha-Park/genpark-work-stealing-thread-pool-deque-skill) | Chase-Lev work-stealing deque scheduler for parallel task decomposition with local LIFO and remote FIFO stealing | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
