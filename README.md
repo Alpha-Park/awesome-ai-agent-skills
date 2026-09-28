@@ -989,6 +989,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-seasonal-trend-decomposition-stl-skill](https://github.com/Alpha-Park/genpark-seasonal-trend-decomposition-stl-skill) | Classical additive time-series decomposition separating trend, seasonal pattern, and residuals | Service | [x] | Standard library |
 | [genpark-matrix-profile-discord-anomaly-detector-skill](https://github.com/Alpha-Park/genpark-matrix-profile-discord-anomaly-detector-skill) | Matrix Profile 1D subsequence distance profile and top discord anomaly detection | Service | [x] | Standard library |
 
+
+### Phase 289: Graph Representation Learning, Community Detection & Network Science
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-louvain-modularity-community-detection-skill](https://github.com/Alpha-Park/genpark-louvain-modularity-community-detection-skill) | Louvain method for greedy modularity maximization community detection on weighted graphs | Service | [x] | Standard library |
+| [genpark-node2vec-biased-random-walk-embedding-skill](https://github.com/Alpha-Park/genpark-node2vec-biased-random-walk-embedding-skill) | Node2Vec 2nd-order biased random walk generator with return (p) and in-out (q) hyperparameters | Service | [x] | Standard library |
+| [genpark-graph-convolutional-network-gcn-layer-skill](https://github.com/Alpha-Park/genpark-graph-convolutional-network-gcn-layer-skill) | Spectral Graph Convolutional Network (GCN) layer with self-loop renormalization and forward propagation | Service | [x] | Standard library |
+| [genpark-weisfeiler-lehman-graph-isomorphism-skill](https://github.com/Alpha-Park/genpark-weisfeiler-lehman-graph-isomorphism-skill) | 1-dimensional Weisfeiler-Lehman (WL) graph coloring kernel for graph isomorphism testing | Service | [x] | Standard library |
+| [genpark-label-propagation-semi-supervised-graph-skill](https://github.com/Alpha-Park/genpark-label-propagation-semi-supervised-graph-skill) | Semi-supervised Label Propagation Algorithm (LPA) for graph node classification and community clustering | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
