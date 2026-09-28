@@ -979,6 +979,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-disruptor-lock-free-ring-buffer-skill](https://github.com/Alpha-Park/genpark-disruptor-lock-free-ring-buffer-skill) | LMAX Disruptor-inspired lock-free high-throughput ring buffer with sequence barriers and multi-consumer gating | Service | [x] | Standard library |
 | [genpark-work-stealing-thread-pool-deque-skill](https://github.com/Alpha-Park/genpark-work-stealing-thread-pool-deque-skill) | Chase-Lev work-stealing deque scheduler for parallel task decomposition with local LIFO and remote FIFO stealing | Service | [x] | Standard library |
 
+
+### Phase 288: Time Series Forecasting, Decomposition & Anomaly Detection
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-holt-winters-exponential-smoothing-skill](https://github.com/Alpha-Park/genpark-holt-winters-exponential-smoothing-skill) | Triple exponential smoothing Holt-Winters additive level, trend, and seasonal forecasting model | Service | [x] | Standard library |
+| [genpark-arima-autoregressive-integrated-predictor-skill](https://github.com/Alpha-Park/genpark-arima-autoregressive-integrated-predictor-skill) | ARIMA(1, d, 0) autoregressive integrated time series predictor with sample autocorrelation estimation | Service | [x] | Standard library |
+| [genpark-dynamic-time-warping-dtw-alignment-skill](https://github.com/Alpha-Park/genpark-dynamic-time-warping-dtw-alignment-skill) | Dynamic Time Warping (DTW) non-linear temporal sequence alignment with Sakoe-Chiba window constraint | Service | [x] | Standard library |
+| [genpark-seasonal-trend-decomposition-stl-skill](https://github.com/Alpha-Park/genpark-seasonal-trend-decomposition-stl-skill) | Classical additive time-series decomposition separating trend, seasonal pattern, and residuals | Service | [x] | Standard library |
+| [genpark-matrix-profile-discord-anomaly-detector-skill](https://github.com/Alpha-Park/genpark-matrix-profile-discord-anomaly-detector-skill) | Matrix Profile 1D subsequence distance profile and top discord anomaly detection | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
