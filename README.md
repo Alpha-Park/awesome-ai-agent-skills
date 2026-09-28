@@ -1019,6 +1019,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-mvcc-snapshot-isolation-engine-skill](https://github.com/Alpha-Park/genpark-mvcc-snapshot-isolation-engine-skill) | Multi-Version Concurrency Control (MVCC) snapshot isolation engine with epoch vacuuming | Service | [x] | Standard library |
 | [genpark-counting-bloom-filter-safe-deletion-skill](https://github.com/Alpha-Park/genpark-counting-bloom-filter-safe-deletion-skill) | Counting Bloom Filter supporting item insertion, safe deletion, and membership testing without false negatives | Service | [x] | Standard library |
 
+
+### Phase 292: Autonomous Agents, Tool Calling, Planning & Reflection
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-react-agent-reasoning-interleaved-tool-engine-skill](https://github.com/Alpha-Park/genpark-react-agent-reasoning-interleaved-tool-engine-skill) | ReAct (Reasoning + Acting) execution engine with step-by-step observation injection and scratchpad history tracking | Service | [x] | Standard library |
+| [genpark-plan-and-solve-hierarchical-decomposer-skill](https://github.com/Alpha-Park/genpark-plan-and-solve-hierarchical-decomposer-skill) | Plan-and-Solve agent framework decomposing complex multi-step queries into a directed dependency plan | Service | [x] | Standard library |
+| [genpark-self-refine-iterative-critique-optimization-skill](https://github.com/Alpha-Park/genpark-self-refine-iterative-critique-optimization-skill) | Self-Refine iterative critique-and-refinement loop evaluating constraint adherence and applying structured revisions | Service | [x] | Standard library |
+| [genpark-reflexion-episodic-memory-evaluator-skill](https://github.com/Alpha-Park/genpark-reflexion-episodic-memory-evaluator-skill) | Reflexion architecture maintaining episodic failure memories and verbal reinforcement learning signals | Service | [x] | Standard library |
+| [genpark-tree-of-thoughts-beam-search-reasoner-skill](https://github.com/Alpha-Park/genpark-tree-of-thoughts-beam-search-reasoner-skill) | Tree of Thoughts (ToT) reasoning engine exploring multi-branch decision states via breadth-first beam search | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
