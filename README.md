@@ -949,6 +949,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-kd-tree-nearest-neighbor-spatial-search-skill](https://github.com/Alpha-Park/genpark-kd-tree-nearest-neighbor-spatial-search-skill) | k-Dimensional Tree (KD-Tree) spatial index with median partitioning and k-NN branch-and-bound queries | Service | [x] | Standard library |
 | [genpark-half-edge-mesh-dcel-topology-skill](https://github.com/Alpha-Park/genpark-half-edge-mesh-dcel-topology-skill) | Doubly Connected Edge List (DCEL) Half-Edge mesh topology with vertex incident cycles and Euler characteristic | Service | [x] | Standard library |
 
+
+### Phase 285: Computational Physics, Navier-Stokes & Multibody Simulation
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-navier-stokes-2d-fluid-solver-skill](https://github.com/Alpha-Park/genpark-navier-stokes-2d-fluid-solver-skill) | Incompressible 2D Navier-Stokes fluid dynamics grid solver with pressure Poisson Chorin projection | Service | [x] | Standard library |
+| [genpark-lattice-boltzmann-d2q9-fluid-flow-skill](https://github.com/Alpha-Park/genpark-lattice-boltzmann-d2q9-fluid-flow-skill) | D2Q9 Lattice Boltzmann Method (LBM) fluid solver with BGK collision and obstacle boundary conditions | Service | [x] | Standard library |
+| [genpark-barnes-hut-nbody-gravity-simulation-skill](https://github.com/Alpha-Park/genpark-barnes-hut-nbody-gravity-simulation-skill) | Barnes-Hut hierarchical quadtree N-body gravitational simulation with multipole acceptance criteria | Service | [x] | Standard library |
+| [genpark-verlet-cloth-spring-mass-simulation-skill](https://github.com/Alpha-Park/genpark-verlet-cloth-spring-mass-simulation-skill) | Verlet integration cloth and spring-mass dynamics simulation with iterative distance constraint relaxation | Service | [x] | Standard library |
+| [genpark-rigid-body-2d-impulse-collision-resolver-skill](https://github.com/Alpha-Park/genpark-rigid-body-2d-impulse-collision-resolver-skill) | 2D Rigid body dynamics engine with Separating Axis Theorem (SAT) collision detection and contact impulse resolution | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
