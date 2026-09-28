@@ -959,6 +959,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-verlet-cloth-spring-mass-simulation-skill](https://github.com/Alpha-Park/genpark-verlet-cloth-spring-mass-simulation-skill) | Verlet integration cloth and spring-mass dynamics simulation with iterative distance constraint relaxation | Service | [x] | Standard library |
 | [genpark-rigid-body-2d-impulse-collision-resolver-skill](https://github.com/Alpha-Park/genpark-rigid-body-2d-impulse-collision-resolver-skill) | 2D Rigid body dynamics engine with Separating Axis Theorem (SAT) collision detection and contact impulse resolution | Service | [x] | Standard library |
 
+
+### Phase 286: Error-Correcting Codes, Channel Coding & Viterbi Decoding
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-reed-solomon-error-correcting-code-skill](https://github.com/Alpha-Park/genpark-reed-solomon-error-correcting-code-skill) | Galois Field GF(2^8) Reed-Solomon systematic error-correcting encoder and syndrome evaluation | Service | [x] | Standard library |
+| [genpark-hamming-secded-error-correction-code-skill](https://github.com/Alpha-Park/genpark-hamming-secded-error-correction-code-skill) | Hamming (7, 4) linear block code and extended (8, 4) SECDED single-error correction double-error detection | Service | [x] | Standard library |
+| [genpark-viterbi-convolutional-decoder-skill](https://github.com/Alpha-Park/genpark-viterbi-convolutional-decoder-skill) | Rate 1/2 constraint-length 3 convolutional encoder and Viterbi trellis maximum-likelihood path decoder | Service | [x] | Standard library |
+| [genpark-ldpc-tanner-graph-belief-propagation-skill](https://github.com/Alpha-Park/genpark-ldpc-tanner-graph-belief-propagation-skill) | Low-Density Parity-Check (LDPC) Tanner graph belief propagation decoder with sum-product LLR message passing | Service | [x] | Standard library |
+| [genpark-shannon-entropy-channel-capacity-awgn-skill](https://github.com/Alpha-Park/genpark-shannon-entropy-channel-capacity-awgn-skill) | Shannon-Hartley AWGN channel capacity theorem, mutual information, and binary symmetric channel limits | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
