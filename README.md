@@ -939,6 +939,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-iir-filter-butterworth-bilinear-transform-skill](https://github.com/Alpha-Park/genpark-iir-filter-butterworth-bilinear-transform-skill) | 2nd-Order Butterworth Infinite Impulse Response (IIR) digital biquad filter via bilinear z-transform | Service | [x] | Standard library |
 | [genpark-fir-filter-windowed-sinc-design-skill](https://github.com/Alpha-Park/genpark-fir-filter-windowed-sinc-design-skill) | Finite Impulse Response (FIR) low-pass filter design using truncated sinc and Hamming/Blackman windowing | Service | [x] | Standard library |
 
+
+### Phase 284: Computational Geometry, Voronoi & Spatial Triangulation
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-convex-hull-andrew-monotone-chain-skill](https://github.com/Alpha-Park/genpark-convex-hull-andrew-monotone-chain-skill) | Andrew's Monotone Chain 2D convex hull algorithm with cross-product orientation test and polygon geometry | Service | [x] | Standard library |
+| [genpark-delaunay-triangulation-bowyer-watson-skill](https://github.com/Alpha-Park/genpark-delaunay-triangulation-bowyer-watson-skill) | Bowyer-Watson incremental 2D Delaunay triangulation with circumcircle tests and cavity retriangulation | Service | [x] | Standard library |
+| [genpark-voronoi-diagram-delaunay-dual-skill](https://github.com/Alpha-Park/genpark-voronoi-diagram-delaunay-dual-skill) | Voronoi diagram generator via dual graph extraction of Delaunay triangulation with circumcenter vertices | Service | [x] | Standard library |
+| [genpark-kd-tree-nearest-neighbor-spatial-search-skill](https://github.com/Alpha-Park/genpark-kd-tree-nearest-neighbor-spatial-search-skill) | k-Dimensional Tree (KD-Tree) spatial index with median partitioning and k-NN branch-and-bound queries | Service | [x] | Standard library |
+| [genpark-half-edge-mesh-dcel-topology-skill](https://github.com/Alpha-Park/genpark-half-edge-mesh-dcel-topology-skill) | Doubly Connected Edge List (DCEL) Half-Edge mesh topology with vertex incident cycles and Euler characteristic | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
