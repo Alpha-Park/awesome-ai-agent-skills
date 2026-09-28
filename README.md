@@ -900,6 +900,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-gillespie-stochastic-simulation-chemical-master-skill](https://github.com/Alpha-Park/genpark-gillespie-stochastic-simulation-chemical-master-skill) | Gillespie stochastic simulation algorithm (SSA / Direct Method) for jump Markov processes and chemical kinetics | Service | [x] | Standard library |
 | [genpark-markov-chain-monte-carlo-metropolis-hastings-skill](https://github.com/Alpha-Park/genpark-markov-chain-monte-carlo-metropolis-hastings-skill) | Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler with Gaussian proposals and diagnostic statistics | Service | [x] | Standard library |
 
+
+### Phase 282: Geographic Information Systems (GIS), Geodesy & Spatial Indexing
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-geodesy-haversine-vincenty-distance-skill](https://github.com/Alpha-Park/genpark-geodesy-haversine-vincenty-distance-skill) | Geodesic ellipsoidal and spherical distance calculations via Haversine formula and Vincenty inverse solution on WGS-84 | Service | [x] | Standard library |
+| [genpark-r-tree-spatial-indexing-bounding-box-skill](https://github.com/Alpha-Park/genpark-r-tree-spatial-indexing-bounding-box-skill) | 2D R-Tree spatial indexing with Minimum Bounding Boxes (MBR) and spatial range intersection queries | Service | [x] | Standard library |
+| [genpark-geohash-spatial-encoding-decoding-skill](https://github.com/Alpha-Park/genpark-geohash-spatial-encoding-decoding-skill) | Geohash base32 hierarchical spatial grid encoding, decoding, and bounding box interval calculations | Service | [x] | Standard library |
+| [genpark-ray-casting-polygon-point-in-polygon-skill](https://github.com/Alpha-Park/genpark-ray-casting-polygon-point-in-polygon-skill) | Jordan curve ray-casting point-in-polygon (PIP) test with polygon area and centroid Shoelace calculation | Service | [x] | Standard library |
+| [genpark-utm-mgrs-coordinate-projection-skill](https://github.com/Alpha-Park/genpark-utm-mgrs-coordinate-projection-skill) | Universal Transverse Mercator (UTM) forward ellipsoidal map projection with central meridian convergence | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
