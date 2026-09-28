@@ -836,3 +836,18 @@ Bash command AST sandbox guard, multi-vector prompt injection & jailbreak sentin
 | [`genpark-agent-deadlock-liveloss-loop-detector-skill`](https://github.com/Alpha-Park/genpark-agent-deadlock-liveloss-loop-detector-skill) | Trajectory state entropy and cyclic repetition detector identifying autonomous agent infinite tool loops and planning deadlocks. | `AgentDeadlockLivelossLoopDetector` |
 
 ---
+
+
+
+### 🌐 11. Autonomous Web Browsing & DOM Semantic Extraction (Phase 253)
+DOM semantic tree pruner with 80%+ token reduction, form input schema auto-mapper, synthetic execution trajectory evaluator, anti-crawler trap URL canonicalizer, and type-inferred Markdown-to-JSON transformer.
+
+| Skill Name | Description | Python Client |
+|:---|:---|:---|
+| [`genpark-html-dom-semantic-tree-pruner-skill`](https://github.com/Alpha-Park/genpark-html-dom-semantic-tree-pruner-skill) | Zero-dependency HTML DOM semantic tree pruner compressing web markup into accessibility-friendly clean trees with 80%+ token reduction. | `HtmlDomSemanticTreePruner` |
+| [`genpark-web-form-input-schema-auto-mapper-skill`](https://github.com/Alpha-Park/genpark-web-form-input-schema-auto-mapper-skill) | Autonomous web form inspector and schema auto-mapper matching input attributes, autocomplete hints, and regex validations to agent state. | `WebFormInputSchemaAutoMapper` |
+| [`genpark-agent-synthetic-trajectory-evaluator-skill`](https://github.com/Alpha-Park/genpark-agent-synthetic-trajectory-evaluator-skill) | Execution trajectory evaluator computing action-level precision, recall, and Levenshtein sequence edit distance against gold benchmarks. | `AgentSyntheticTrajectoryEvaluator` |
+| [`genpark-url-canonicalization-anti-crawler-trap-skill`](https://github.com/Alpha-Park/genpark-url-canonicalization-anti-crawler-trap-skill) | Web URL canonicalization and anti-crawler trap detector identifying circular paths, infinite paginations, and tracking parameter bloat. | `UrlCanonicalizationAntiCrawlerTrap` |
+| [`genpark-markdown-table-to-json-transformer-skill`](https://github.com/Alpha-Park/genpark-markdown-table-to-json-transformer-skill) | Zero-dependency Markdown table to structured JSON transformer with automated column type inference and format normalization. | `MarkdownTableToJsonTransformer` |
+
+---
