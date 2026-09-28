@@ -1,0 +1,167 @@
+[
+  {
+    "name": "calibrate_axis_scale",
+    "description": "tick_marks: list of dicts [{\"coord\": 500, \"val\": 0.0}, {\"coord\": 100, \"val\": 100.0}]\nReturns slope and intercept for mapping: value = slope * coord + intercept",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tick_marks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "coord": {
+                "type": "number"
+              },
+              "val": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "coord",
+              "val"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "tick_marks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "extract_bar_chart_series",
+    "description": "extract bar chart series",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "bars_coords": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "y_top": {
+                "type": "number"
+              },
+              "y_base": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "label",
+              "y_top",
+              "y_base"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "y_calibration": {
+          "type": "object",
+          "properties": {
+            "slope": {
+              "type": "number"
+            },
+            "intercept": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "slope",
+            "intercept"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "bars_coords",
+        "y_calibration"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "extract_scatter_points",
+    "description": "extract scatter points",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "points_coords": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "label": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "x",
+              "y",
+              "label"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "x_calibration": {
+          "type": "object",
+          "properties": {
+            "slope": {
+              "type": "number"
+            },
+            "intercept": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "slope",
+            "intercept"
+          ],
+          "additionalProperties": true
+        },
+        "y_calibration": {
+          "type": "object",
+          "properties": {
+            "slope": {
+              "type": "number"
+            },
+            "intercept": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "slope",
+            "intercept"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "points_coords",
+        "x_calibration",
+        "y_calibration"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_chart_extraction",
+    "description": "run benchmark chart extraction",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

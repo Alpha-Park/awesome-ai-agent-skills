@@ -1,0 +1,99 @@
+[
+  {
+    "name": "extract_defined_terms",
+    "description": "extract defined terms",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "contract_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "contract_text"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "map_clause_dependencies",
+    "description": "map clause dependencies",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "clauses_dict": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "clauses_dict"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "detect_circular_references",
+    "description": "detect circular references",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "dependency_graph": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "dependency_graph"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "resolve_and_expand_clause",
+    "description": "resolve and expand clause",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "clause_id": {
+          "type": "string"
+        },
+        "clauses_dict": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "defined_terms": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "clause_id",
+        "clauses_dict",
+        "defined_terms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_legal_resolution",
+    "description": "run benchmark legal resolution",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

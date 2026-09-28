@@ -1,0 +1,75 @@
+[
+  {
+    "name": "analyze_turn_status",
+    "description": "analyze turn status",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "frame_energies_db": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "transcript_fragment": {
+          "type": "string"
+        },
+        "elapsed_silence_ms": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "frame_energies_db",
+        "transcript_fragment",
+        "elapsed_silence_ms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "calibrate_acoustic_thresholds",
+    "description": "calibrate acoustic thresholds",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ambient_frames_db": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "ambient_frames_db"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "predict_semantic_closure",
+    "description": "predict semantic closure",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "transcript_fragment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "transcript_fragment"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_turn_detection",
+    "description": "run benchmark turn detection",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

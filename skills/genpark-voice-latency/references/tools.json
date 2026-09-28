@@ -1,0 +1,66 @@
+[
+  {
+    "name": "record_pipeline_event",
+    "description": "record pipeline event",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        },
+        "stage_name": {
+          "type": "string"
+        },
+        "timestamp_ms": {
+          "type": "number"
+        },
+        "metadata": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "turn_id",
+        "stage_name",
+        "timestamp_ms",
+        "metadata"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "compute_turn_latency_breakdown",
+    "description": "compute turn latency breakdown",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "turn_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "generate_sla_diagnostic_report",
+    "description": "generate sla diagnostic report",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_telemetry_profiling",
+    "description": "run benchmark telemetry profiling",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

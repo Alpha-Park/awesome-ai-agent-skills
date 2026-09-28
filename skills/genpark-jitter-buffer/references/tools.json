@@ -1,0 +1,64 @@
+[
+  {
+    "name": "ingest_packet",
+    "description": "ingest packet",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "seq_num": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rtp_timestamp": {
+          "type": "number",
+          "minimum": 0
+        },
+        "payload_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "arrival_ms": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "seq_num",
+        "rtp_timestamp",
+        "payload_bytes",
+        "arrival_ms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "extract_playout_frame",
+    "description": "extract playout frame",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_jitter_telemetry",
+    "description": "get jitter telemetry",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_jitter_simulation",
+    "description": "run benchmark jitter simulation",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

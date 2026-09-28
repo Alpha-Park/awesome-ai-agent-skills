@@ -1,0 +1,85 @@
+[
+  {
+    "name": "classify_utterance_intent",
+    "description": "classify utterance intent",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "user_transcript_snippet": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "user_transcript_snippet"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "evaluate_interruption_event",
+    "description": "evaluate interruption event",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "agent_is_speaking": {
+          "type": "boolean"
+        },
+        "incoming_audio_energy_db": {
+          "type": "number"
+        },
+        "incoming_transcript": {
+          "type": "string"
+        },
+        "echo_correlation_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "utterance_duration_ms": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "agent_is_speaking",
+        "incoming_audio_energy_db",
+        "incoming_transcript",
+        "echo_correlation_score",
+        "utterance_duration_ms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "compute_playback_rollback_state",
+    "description": "compute playback rollback state",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "full_agent_script": {
+          "type": "string"
+        },
+        "playback_progress_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "full_agent_script",
+        "playback_progress_ratio"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_barge_in_arbitration",
+    "description": "run benchmark barge in arbitration",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

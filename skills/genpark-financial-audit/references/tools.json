@@ -1,0 +1,72 @@
+[
+  {
+    "name": "audit_balance_sheet",
+    "description": "audit balance sheet",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "balance_sheet_dict": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "balance_sheet_dict"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "audit_income_statement",
+    "description": "audit income statement",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "income_stmt_dict": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "income_stmt_dict"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "audit_cross_footing",
+    "description": "Validates that row sums and column sums align (footing and cross-footing).\nmatrix_rows is a 2D float list where the last column is row total and last row is col total.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "matrix_rows": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "required": [
+        "matrix_rows"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_financial_audit",
+    "description": "run benchmark financial audit",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]

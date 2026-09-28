@@ -7,6 +7,25 @@ Repository visibility and names were checked against GitHub on **2026-09-28**.
 This index does not certify every implementation as production-ready or registry-approved.
 Dependencies and installation steps vary by repository.
 
+## Installable Agent Skills
+
+Eight self-contained skills include `SKILL.md`, local Python helpers, tool schemas and runnable examples. Python 3.9+; no runtime dependencies. These eight installable bundles are distinct from the broader repository index below.
+
+```sh
+npx skills add Alpha-Park/awesome-ai-agent-skills
+```
+
+Choose individual skills interactively, or append `--skill genpark-ocr-table` to select one.
+
+- [genpark-voice-vad](skills/genpark-voice-vad/SKILL.md): Energy and transcript heuristics for voice turn endpoint detection.
+- [genpark-jitter-buffer](skills/genpark-jitter-buffer/SKILL.md): Packet ordering simulation and inter-arrival jitter telemetry.
+- [genpark-financial-audit](skills/genpark-financial-audit/SKILL.md): Arithmetic consistency checks for supplied financial statement data.
+- [genpark-ocr-table](skills/genpark-ocr-table/SKILL.md): Group supplied OCR text boxes into left-aligned table rows and columns. No image OCR is performed.
+- [genpark-clause-references](skills/genpark-clause-references/SKILL.md): Extract English defined terms and explicit numbered references from supplied contract text; inspect dependency cycles. Regex heuristics, not legal analysis.
+- [genpark-chart-coordinates](skills/genpark-chart-coordinates/SKILL.md): Calibrate linear chart axes and convert supplied bar or scatter pixel coordinates to values. No image recognition or logarithmic axes.
+- [genpark-voice-latency](skills/genpark-voice-latency/SKILL.md): Record supplied voice pipeline timestamps in session memory and calculate latency, bottlenecks and nearest-rank percentiles. No automatic instrumentation.
+- [genpark-barge-in](skills/genpark-barge-in/SKILL.md): Apply transcript, supplied echo score and duration rules to conversational interruptions; estimate playback truncation. No audio echo detection or playback control.
+
 ## Start here
 
 These three packages have focused regression tests and an official MCP client stdio integration check:

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "reconstruct_table_grid",
+    "description": "reconstruct table grid",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "bounding_boxes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x0": {
+                "type": "number"
+              },
+              "y0": {
+                "type": "number"
+              },
+              "x1": {
+                "type": "number"
+              },
+              "y1": {
+                "type": "number"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "x0",
+              "y0",
+              "x1",
+              "y1",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "bounding_boxes"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "format_to_markdown",
+    "description": "format to markdown",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "grid": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "grid"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "run_benchmark_table_reconstruction",
+    "description": "run benchmark table reconstruction",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]
