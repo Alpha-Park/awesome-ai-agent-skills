@@ -938,3 +938,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-bm25-okapi-document-ranker-skill](https://github.com/Alpha-Park/genpark-bm25-okapi-document-ranker-skill) | Okapi BM25 relevance scorer with document length normalization | Service | [x] | Pure math/re |
 | [genpark-levenshtein-damerau-fuzzy-matcher-skill](https://github.com/Alpha-Park/genpark-levenshtein-damerau-fuzzy-matcher-skill) | Damerau-Levenshtein transposition distance & candidate ranker | Service | [x] | Standard library |
 | [genpark-minhash-lsh-document-deduplicator-skill](https://github.com/Alpha-Park/genpark-minhash-lsh-document-deduplicator-skill) | MinHash & LSH near-duplicate Jaccard similarity estimator | Service | [x] | Pure re/hash |
+
+
+### Phase 264: Reinforcement Learning, Multi-Armed Bandits & Value Iteration
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-multi-armed-bandit-ucb1-thompson-skill](https://github.com/Alpha-Park/genpark-multi-armed-bandit-ucb1-thompson-skill) | Multi-armed bandit with UCB1 exploration and Bayesian Thompson sampling | Service | [x] | Pure math/random |
+| [genpark-markov-decision-process-value-iteration-skill](https://github.com/Alpha-Park/genpark-markov-decision-process-value-iteration-skill) | Finite MDP solver with Bellman optimality value iteration | Service | [x] | Standard library |
+| [genpark-q-learning-temporal-difference-agent-skill](https://github.com/Alpha-Park/genpark-q-learning-temporal-difference-agent-skill) | Tabular Q-learning agent with epsilon-greedy policy & TD updates | Service | [x] | Pure random |
+| [genpark-actor-critic-advantage-td-error-skill](https://github.com/Alpha-Park/genpark-actor-critic-advantage-td-error-skill) | Advantage Actor-Critic (A2C) with TD error and softmax policy | Service | [x] | Pure math |
+| [genpark-mcts-monte-carlo-tree-search-skill](https://github.com/Alpha-Park/genpark-mcts-monte-carlo-tree-search-skill) | Upper Confidence Bounds for Trees (UCT / MCTS) planning engine | Service | [x] | Pure math |
