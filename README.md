@@ -1029,6 +1029,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-reflexion-episodic-memory-evaluator-skill](https://github.com/Alpha-Park/genpark-reflexion-episodic-memory-evaluator-skill) | Reflexion architecture maintaining episodic failure memories and verbal reinforcement learning signals | Service | [x] | Standard library |
 | [genpark-tree-of-thoughts-beam-search-reasoner-skill](https://github.com/Alpha-Park/genpark-tree-of-thoughts-beam-search-reasoner-skill) | Tree of Thoughts (ToT) reasoning engine exploring multi-branch decision states via breadth-first beam search | Service | [x] | Standard library |
 
+
+### Phase 293: Symbolic Execution, Program Synthesis & Static Analysis
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-symbolic-execution-path-explorer-skill](https://github.com/Alpha-Park/genpark-symbolic-execution-path-explorer-skill) | Forward symbolic execution engine with path condition tracking, branch bifurcation, and state exploration | Service | [x] | Standard library |
+| [genpark-abstract-interpretation-interval-domain-skill](https://github.com/Alpha-Park/genpark-abstract-interpretation-interval-domain-skill) | Static program analysis abstract interpretation engine over the interval domain with widening | Service | [x] | Standard library |
+| [genpark-cegis-counterexample-program-synthesizer-skill](https://github.com/Alpha-Park/genpark-cegis-counterexample-program-synthesizer-skill) | Counterexample-Guided Inductive Synthesis (CEGIS) loop generating code expressions matching specifications | Service | [x] | Standard library |
+| [genpark-hoare-logic-axiomatic-verifier-skill](https://github.com/Alpha-Park/genpark-hoare-logic-axiomatic-verifier-skill) | Axiomatic Hoare logic verification condition generator (VCG) for imperative programs with loop invariants | Service | [x] | Standard library |
+| [genpark-hindley-milner-type-inference-skill](https://github.com/Alpha-Park/genpark-hindley-milner-type-inference-skill) | Hindley-Milner Algorithm W polymorphic type inference engine with unification and constraint solving | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
