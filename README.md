@@ -1059,6 +1059,16 @@ Download [catalog.json](catalog.json) to filter the full index programmatically.
 | [genpark-raft-snapshot-compaction-install-skill](https://github.com/Alpha-Park/genpark-raft-snapshot-compaction-install-skill) | Raft state machine log compaction and incremental chunked InstallSnapshot synchronization | Service | [x] | Standard library |
 | [genpark-vector-clock-causal-order-tracker-skill](https://github.com/Alpha-Park/genpark-vector-clock-causal-order-tracker-skill) | Distributed vector clocks tracking causal concurrency, happens-before relations, and concurrent events | Service | [x] | Standard library |
 
+
+### Phase 296: Advanced Graph Algorithms & Network Flows
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-dinics-max-flow-network-algorithm-skill](https://github.com/Alpha-Park/genpark-dinics-max-flow-network-algorithm-skill) | Dinic's blocking flow algorithm with level graphs and dead-end pruning for maximum network flow | Service | [x] | Standard library |
+| [genpark-push-relabel-fifo-max-flow-skill](https://github.com/Alpha-Park/genpark-push-relabel-fifo-max-flow-skill) | Goldberg-Tarjan Push-Relabel maximum flow algorithm with FIFO vertex discharge and height relabeling | Service | [x] | Standard library |
+| [genpark-min-cost-max-flow-successive-shortest-path-skill](https://github.com/Alpha-Park/genpark-min-cost-max-flow-successive-shortest-path-skill) | Minimum-Cost Maximum-Flow (MCMF) engine using successive shortest path with SPFA residual tracking | Service | [x] | Standard library |
+| [genpark-edmonds-karp-bfs-max-flow-skill](https://github.com/Alpha-Park/genpark-edmonds-karp-bfs-max-flow-skill) | Edmonds-Karp BFS shortest augmenting path algorithm with residual capacity updates | Service | [x] | Standard library |
+| [genpark-tarjan-dominator-tree-cfg-skill](https://github.com/Alpha-Park/genpark-tarjan-dominator-tree-cfg-skill) | Dominator tree construction and immediate dominator calculation over directed control-flow graphs | Service | [x] | Standard library |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Submit a public repository with a clear purpose,
