@@ -1411,3 +1411,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [`genpark-web-table-to-structured-json-parser-skill`](https://github.com/Alpha-Park/genpark-web-table-to-structured-json-parser-skill) | HTML table matrix parser extracting column headers and cell rows into structured JSON list of dicts | `table-parser`, `html-table`, `data-extraction`, `structured-data` |
 | [`genpark-robots-txt-crawl-delay-policy-evaluator-skill`](https://github.com/Alpha-Park/genpark-robots-txt-crawl-delay-policy-evaluator-skill) | RFC 9309 robots.txt parser with path permissions, Disallow/Allow rules, and crawl delay compliance | `robots-txt`, `web-crawler`, `rfc-9309`, `crawl-delay` |
 | [`genpark-url-canonicalization-deduplication-filter-skill`](https://github.com/Alpha-Park/genpark-url-canonicalization-deduplication-filter-skill) | URL normalizer sorting query parameters, stripping tracking UTM tokens, and deduplicating visited URLs | `url-canonicalization`, `url-normalizer`, `deduplication`, `tracking-stripper` |
+
+
+### Phase 308 — Agent Evaluation, Benchmark Metrics & LLM-as-a-Judge (2026 Frontier)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-agent-trajectory-pass-fail-evaluator-skill`](https://github.com/Alpha-Park/genpark-agent-trajectory-pass-fail-evaluator-skill) | Step-by-step agent trajectory evaluator comparing execution traces against golden tool call sequences | `trajectory-evaluator`, `agent-benchmarks`, `evaluation`, `tool-call-eval` |
+| [`genpark-llm-as-a-judge-rubric-scoring-engine-skill`](https://github.com/Alpha-Park/genpark-llm-as-a-judge-rubric-scoring-engine-skill) | Structured rubric evaluator calculating weighted composite Likert scores across quality criteria | `llm-as-a-judge`, `rubric-scoring`, `evaluation`, `quality-assurance` |
+| [`genpark-rouge-bleu-lexical-overlap-metrics-skill`](https://github.com/Alpha-Park/genpark-rouge-bleu-lexical-overlap-metrics-skill) | Pure Python ROUGE-L and BLEU n-gram lexical overlap precision, recall, and F1 metrics calculation | `rouge-metric`, `bleu-metric`, `lexical-overlap`, `text-eval` |
+| [`genpark-context-precision-recall-rag-metric-skill`](https://github.com/Alpha-Park/genpark-context-precision-recall-rag-metric-skill) | RAG context precision and context recall evaluator measuring retrieved chunk relevance and rank quality | `context-precision`, `context-recall`, `rag-evaluation`, `relevance` |
+| [`genpark-tool-call-argument-accuracy-validator-skill`](https://github.com/Alpha-Park/genpark-tool-call-argument-accuracy-validator-skill) | Strict type, range, and semantic key validator for agent tool call invocations | `tool-call-validator`, `argument-validation`, `schema-compliance`, `agent-testing` |
