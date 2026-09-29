@@ -1371,3 +1371,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [`genpark-canary-token-leak-sentinel-skill`](https://github.com/Alpha-Park/genpark-canary-token-leak-sentinel-skill) | HMAC-authenticated canary token generator and secret exfiltration leak detection sentinel | `canary-tokens`, `leak-detection`, `tripwire`, `ai-safety` |
 | [`genpark-hallucination-factual-grounding-checker-skill`](https://github.com/Alpha-Park/genpark-hallucination-factual-grounding-checker-skill) | Factual grounding and citation overlap verifier measuring claim support against retrieved passages | `hallucination-detector`, `factual-grounding`, `faithfulness`, `ai-safety` |
 | [`genpark-agent-output-schema-enforcer-guardrail-skill`](https://github.com/Alpha-Park/genpark-agent-output-schema-enforcer-guardrail-skill) | Strict JSON schema validator with streaming partial JSON repair, missing field filling, and sanitization | `schema-enforcer`, `json-guardrail`, `llm-guardrails`, `json-repair` |
+
+
+### Phase 303 — Multi-Agent Swarms, Consensus & Collaborative Debate (2026 Frontier)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-multi-agent-debate-consensus-engine-skill`](https://github.com/Alpha-Park/genpark-multi-agent-debate-consensus-engine-skill) | Multi-agent adversarial debate engine with iterative rebuttals, scoring matrices, and consensus synthesis | `multi-agent`, `agent-debate`, `consensus`, `swarm-intelligence` |
+| [`genpark-blackboard-shared-scratchpad-swarm-skill`](https://github.com/Alpha-Park/genpark-blackboard-shared-scratchpad-swarm-skill) | Centralized blackboard pattern for multi-agent swarm task posting, condition watching, and state accumulation | `blackboard-pattern`, `shared-memory`, `swarm-coordination`, `scratchpad` |
+| [`genpark-contract-net-protocol-task-allocation-skill`](https://github.com/Alpha-Park/genpark-contract-net-protocol-task-allocation-skill) | FIPA Contract Net Protocol (CNP) multi-agent market mechanism for task bidding, evaluation, and awarding | `contract-net-protocol`, `task-allocation`, `market-mechanism`, `auction-theory` |
+| [`genpark-agent-message-bus-topic-router-skill`](https://github.com/Alpha-Park/genpark-agent-message-bus-topic-router-skill) | Asynchronous pub/sub message bus with hierarchical wildcard topic matching and priority routing | `message-bus`, `topic-router`, `pub-sub`, `event-driven` |
+| [`genpark-swarm-majority-voting-verifier-skill`](https://github.com/Alpha-Park/genpark-swarm-majority-voting-verifier-skill) | Multi-agent ensemble voting with Borda count, Condorcet analysis, and confidence-weighted majority resolution | `majority-voting`, `swarm-verifier`, `self-consistency`, `ensemble-ai` |
