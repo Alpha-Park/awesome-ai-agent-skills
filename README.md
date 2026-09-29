@@ -1381,3 +1381,13 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [`genpark-contract-net-protocol-task-allocation-skill`](https://github.com/Alpha-Park/genpark-contract-net-protocol-task-allocation-skill) | FIPA Contract Net Protocol (CNP) multi-agent market mechanism for task bidding, evaluation, and awarding | `contract-net-protocol`, `task-allocation`, `market-mechanism`, `auction-theory` |
 | [`genpark-agent-message-bus-topic-router-skill`](https://github.com/Alpha-Park/genpark-agent-message-bus-topic-router-skill) | Asynchronous pub/sub message bus with hierarchical wildcard topic matching and priority routing | `message-bus`, `topic-router`, `pub-sub`, `event-driven` |
 | [`genpark-swarm-majority-voting-verifier-skill`](https://github.com/Alpha-Park/genpark-swarm-majority-voting-verifier-skill) | Multi-agent ensemble voting with Borda count, Condorcet analysis, and confidence-weighted majority resolution | `majority-voting`, `swarm-verifier`, `self-consistency`, `ensemble-ai` |
+
+
+### Phase 304 — Code Intelligence, Autonomous Repair & AST Synthesis (2026 Frontier)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-ast-static-code-analyzer-linter-skill`](https://github.com/Alpha-Park/genpark-ast-static-code-analyzer-linter-skill) | Python AST visitor analyzing cyclomatic complexity, code smells, missing docstrings, and dangerous builtins | `ast-analyzer`, `static-analysis`, `code-linter`, `cyclomatic-complexity` |
+| [`genpark-automated-code-patch-diff-synthesizer-skill`](https://github.com/Alpha-Park/genpark-automated-code-patch-diff-synthesizer-skill) | Unified diff generator and patch application engine using difflib with hunk matching and rollback | `code-patcher`, `unified-diff`, `difflib`, `git-patch` |
+| [`genpark-autonomous-test-suite-fuzz-generator-skill`](https://github.com/Alpha-Park/genpark-autonomous-test-suite-fuzz-generator-skill) | Type-directed test case and boundary value fuzz input synthesizer for automated function testing | `fuzz-testing`, `test-generator`, `boundary-values`, `type-directed` |
+| [`genpark-code-call-graph-dependency-extractor-skill`](https://github.com/Alpha-Park/genpark-code-call-graph-dependency-extractor-skill) | Static function call graph and module import dependency analyzer using Python AST inspection | `call-graph`, `dependency-analysis`, `ast-parser`, `code-intelligence` |
+| [`genpark-git-conventional-commit-changelog-generator-skill`](https://github.com/Alpha-Park/genpark-git-conventional-commit-changelog-generator-skill) | Semantic code diff analyzer generating conventional commit messages and automated markdown changelogs | `conventional-commits`, `changelog-generator`, `git-tools`, `diff-analyzer` |
