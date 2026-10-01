@@ -24,6 +24,8 @@ def deduplicate(data):
 
 
 if __name__ == "__main__":
+    sys.stdin.reconfigure(encoding="utf-8-sig")
+    sys.stdout.reconfigure(encoding="utf-8")
     try:
         data = json.load(sys.stdin)
         if not isinstance(data, dict):
