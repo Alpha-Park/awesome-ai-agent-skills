@@ -9,7 +9,7 @@ Dependencies and installation steps vary by repository.
 
 ## Installable Agent Skills
 
-Eight self-contained skills include `SKILL.md`, local Python helpers, tool schemas and runnable examples. Python 3.9+; no runtime dependencies. These eight installable bundles are distinct from the broader repository index below.
+Ten self-contained skills include `SKILL.md` and local Python helpers. Python 3.9+; no runtime dependencies. Eight MCP-backed bundles include tool schemas and examples; two data-processing skills use direct Python helpers with regression tests. These installable bundles are distinct from the broader repository index below.
 
 ```sh
 npx skills add Alpha-Park/awesome-ai-agent-skills
@@ -25,6 +25,8 @@ Choose individual skills interactively, or append `--skill genpark-ocr-table` to
 - [genpark-chart-coordinates](skills/genpark-chart-coordinates/SKILL.md): Calibrate linear chart axes and convert supplied bar or scatter pixel coordinates to values. No image recognition or logarithmic axes.
 - [genpark-voice-latency](skills/genpark-voice-latency/SKILL.md): Record supplied voice pipeline timestamps in session memory and calculate latency, bottlenecks and nearest-rank percentiles. No automatic instrumentation.
 - [genpark-barge-in](skills/genpark-barge-in/SKILL.md): Apply transcript, supplied echo score and duration rules to conversational interruptions; estimate playback truncation. No audio echo detection or playback control.
+- [genpark-markdown-sections](skills/genpark-markdown-sections/SKILL.md): Split ATX Markdown sections with heading paths, fenced-code preservation and source line ranges.
+- [genpark-json-record-dedup](skills/genpark-json-record-dedup/SKILL.md): Deduplicate JSON records by explicit identity fields with stable order and duplicate provenance.
 
 ## Start here
 
