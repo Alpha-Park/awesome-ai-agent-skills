@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 318 — Autonomous Growth, Demo & Agentic Engineering Suite (Product Hunt Top Monthly Distillation)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-autonomous-lead-scoring-and-outreach-synthesizer-skill`](https://github.com/Alpha-Park/genpark-autonomous-lead-scoring-and-outreach-synthesizer-skill) | Scores outbound lead profiles, evaluates purchase intent, and synthesizes personalized multi-channel outreach messages | `lead-scoring`, `outreach-automation`, `sales-agent`, `b2b-growth` |
+| [`genpark-multimodal-video-demo-script-and-narration-generator-skill`](https://github.com/Alpha-Park/genpark-multimodal-video-demo-script-and-narration-generator-skill) | Transforms UI workflow action sequences into structured video demo chapters, narration voiceover scripts, and timing metadata | `video-scripting`, `product-demo`, `narration-generator`, `ui-walkthrough` |
+| [`genpark-agentic-team-collaboration-messaging-bridge-skill`](https://github.com/Alpha-Park/genpark-agentic-team-collaboration-messaging-bridge-skill) | Normalizes, routes, and thread-correlates multi-agent notifications and interactive prompts across team collaboration channels | `collaboration-bridge`, `slack-integration`, `team-messaging`, `agent-orchestration` |
+| [`genpark-interactive-product-tour-qualification-dialogue-engine-skill`](https://github.com/Alpha-Park/genpark-interactive-product-tour-qualification-dialogue-engine-skill) | Conducts conversational qualification, dynamically tailoring step-by-step product walkthrough paths based on prospect pain points | `product-tour`, `qualification-dialogue`, `interactive-demo`, `buyer-journey` |
+| [`genpark-agentic-git-diff-pr-review-and-patch-synthesizer-skill`](https://github.com/Alpha-Park/genpark-agentic-git-diff-pr-review-and-patch-synthesizer-skill) | Parses unified git diffs, detects security and performance anomalies, generates inline code reviews, and synthesizes unified patches | `code-review`, `git-diff-analyzer`, `patch-synthesizer`, `agentic-engineering` |
+
 ### Phase 317 — Tool Calling Resilience & Schema Repair (2026 Frontier)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
