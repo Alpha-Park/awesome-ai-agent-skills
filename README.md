@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 319 — Autonomous Infrastructure, GEO & Incident Resilience Suite (Product Hunt October 2026 Distillation)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-mcp-unified-context-compaction-and-rate-limiter-skill`](https://github.com/Alpha-Park/genpark-mcp-unified-context-compaction-and-rate-limiter-skill) | Manages MCP tool execution rate limits and compresses bloated tool response context payloads | `context-compaction`, `rate-limiter`, `token-optimization`, `payload-compression` |
+| [`genpark-natural-language-saas-action-controller-skill`](https://github.com/Alpha-Park/genpark-natural-language-saas-action-controller-skill) | Translates high-level natural language phrases into deterministic SaaS API schema payloads | `saas-automation`, `action-controller`, `natural-language-api`, `intent-parser` |
+| [`genpark-generative-engine-optimization-and-citation-scorer-skill`](https://github.com/Alpha-Park/genpark-generative-engine-optimization-and-citation-scorer-skill) | Analyzes digital content for AI search engine citation visibility, factual definitions, and structured metrics | `geo`, `generative-engine-optimization`, `citation-scorer`, `ai-search-optimization` |
+| [`genpark-proactive-production-incident-remediation-skill`](https://github.com/Alpha-Park/genpark-proactive-production-incident-remediation-skill) | Observes telemetry errors, maps root causes, and generates safe executable runbooks for production incident mitigation | `incident-remediation`, `sre-agent`, `root-cause-analysis`, `runbook-generator` |
+| [`genpark-episodic-agent-memory-indexer-and-decay-retriever-skill`](https://github.com/Alpha-Park/genpark-episodic-agent-memory-indexer-and-decay-retriever-skill) | Stores agent episodic memories with semantic tag indexes and time-decay relevance calculation | `agent-memory`, `episodic-memory`, `memory-retriever`, `time-decay` |
+
 ### Phase 318 — Autonomous Growth, Demo & Agentic Engineering Suite (Product Hunt Top Monthly Distillation)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
