@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 320 — Multimodal Media, Executive Triage & Autonomous CX Suite (Product Hunt Top Monthly Distillation)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-multimodal-video-clip-semantic-segmentation-skill`](https://github.com/Alpha-Park/genpark-multimodal-video-clip-semantic-segmentation-skill) | Extracts timestamp boundaries, semantic scenes, and viral clip candidate segments from long-form video transcripts | `video-segmentation`, `semantic-clips`, `video-editor`, `multimodal-agent` |
+| [`genpark-proactive-executive-calendar-and-action-item-prioritizer-skill`](https://github.com/Alpha-Park/genpark-proactive-executive-calendar-and-action-item-prioritizer-skill) | Triages meeting requests, detects conflicting commitments, and assigns priority tiers for executive calendars | `executive-assistant`, `calendar-prioritizer`, `action-item-triage`, `productivity-agent` |
+| [`genpark-high-converting-ad-copy-hook-and-cta-synthesizer-skill`](https://github.com/Alpha-Park/genpark-high-converting-ad-copy-hook-and-cta-synthesizer-skill) | Formulates psychology-driven advertising hooks, primary body copy, and CTA variants for marketing campaigns | `ad-copy-generator`, `marketing-hooks`, `conversion-rate-optimization`, `cta-synthesizer` |
+| [`genpark-autonomous-software-ui-clickpath-and-macro-executor-skill`](https://github.com/Alpha-Park/genpark-autonomous-software-ui-clickpath-and-macro-executor-skill) | Models user journey sequences, conditional decision branches, and execution action trees for autonomous software navigation | `ui-automation`, `clickpath-planner`, `self-driving-software`, `macro-executor` |
+| [`genpark-self-improving-cx-ticket-sentiment-and-resolution-matcher-skill`](https://github.com/Alpha-Park/genpark-self-improving-cx-ticket-sentiment-and-resolution-matcher-skill) | Analyzes customer ticket emotional urgency, maps matching resolution playbooks, and templates responses | `cx-automation`, `sentiment-analysis`, `ticket-resolution`, `support-agent` |
+
 ### Phase 319 — Autonomous Infrastructure, GEO & Incident Resilience Suite (Product Hunt October 2026 Distillation)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
