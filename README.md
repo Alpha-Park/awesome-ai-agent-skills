@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 321 — Model Routing, Cost Governance & Agentic Browser Runtime Suite (Product Hunt October 2026 Distillation)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-dynamic-llm-router-cost-latency-optimizer-skill`](https://github.com/Alpha-Park/genpark-dynamic-llm-router-cost-latency-optimizer-skill) | Selects optimal model endpoint based on query complexity, budget, and latency tolerance | `model-router`, `cost-optimizer`, `latency-router`, `llm-gateway` |
+| [`genpark-agentic-operational-cost-and-token-auditor-skill`](https://github.com/Alpha-Park/genpark-agentic-operational-cost-and-token-auditor-skill) | Tracks token consumption, calculates exact cloud costs, and identifies budget anomalies for agent sessions | `cost-auditor`, `token-tracking`, `agent-observability`, `finops-ai` |
+| [`genpark-agent-api-governance-and-rbac-policy-proxy-skill`](https://github.com/Alpha-Park/genpark-agent-api-governance-and-rbac-policy-proxy-skill) | Enforces fine-grained permissions on agent tool calls and data access scopes | `api-governance`, `rbac-proxy`, `agent-security`, `policy-enforcement` |
+| [`genpark-agentic-browser-dom-snapshot-and-console-monitor-skill`](https://github.com/Alpha-Park/genpark-agentic-browser-dom-snapshot-and-console-monitor-skill) | Captures structured accessibility tree snapshots and intercepts runtime console logs for browser agents | `browser-runtime`, `dom-snapshot`, `console-monitor`, `web-agent` |
+| [`genpark-multi-agent-workspace-state-lock-and-broadcast-skill`](https://github.com/Alpha-Park/genpark-multi-agent-workspace-state-lock-and-broadcast-skill) | Manages distributed locks on resources and broadcasts change events to peer agents in shared workspaces | `workspace-state`, `multi-agent-sync`, `distributed-lock`, `state-broadcast` |
+
 ### Phase 320 — Multimodal Media, Executive Triage & Autonomous CX Suite (Product Hunt Top Monthly Distillation)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
