@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 322 — Social Workflow, Swarm Orchestration & Dynamic Personalization Suite (Product Hunt October 2026 Top Winners)
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-autonomous-cross-platform-social-workflow-scheduler-skill`](https://github.com/Alpha-Park/genpark-autonomous-cross-platform-social-workflow-scheduler-skill) | Adapts core content into platform-native formats and computes optimal posting windows across social channels | `social-media-agent`, `content-scheduler`, `cross-platform-publishing`, `workflow-automation` |
+| [`genpark-automated-social-engagement-and-brand-audit-engine-skill`](https://github.com/Alpha-Park/genpark-automated-social-engagement-and-brand-audit-engine-skill) | Audits brand social metrics, engagement velocity, and identifies content gaps automatically | `social-audit`, `brand-analytics`, `engagement-velocity`, `competitor-benchmarking` |
+| [`genpark-dynamic-landing-page-personalization-and-ab-optimizer-skill`](https://github.com/Alpha-Park/genpark-dynamic-landing-page-personalization-and-ab-optimizer-skill) | Dynamically tailors hero copy, social proof, and CTA variants based on visitor UTM referrer and ICP segment | `landing-page-optimizer`, `dynamic-personalization`, `ab-testing`, `conversion-optimization` |
+| [`genpark-agent-swarm-task-decomposer-and-consensus-aggregator-skill`](https://github.com/Alpha-Park/genpark-agent-swarm-task-decomposer-and-consensus-aggregator-skill) | Decomposes complex goals into parallel worker subtasks and aggregates consensus outputs | `agent-swarm`, `task-decomposition`, `consensus-aggregator`, `multi-agent-orchestration` |
+| [`genpark-cross-app-event-trigger-and-state-machine-orchestrator-skill`](https://github.com/Alpha-Park/genpark-cross-app-event-trigger-and-state-machine-orchestrator-skill) | Evaluates incoming webhook events and advances deterministic cross-app workflow states | `state-machine`, `event-orchestrator`, `cross-app-automation`, `webhook-router` |
+
 ### Phase 321 — Model Routing, Cost Governance & Agentic Browser Runtime Suite (Product Hunt October 2026 Distillation)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
