@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 324 — Agentic Memory Graph, OAuth Scope Governance & Remote MCP Gateway Suite
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-persistent-knowledge-graph-memory-and-entity-linker-skill`](https://github.com/Alpha-Park/genpark-persistent-knowledge-graph-memory-and-entity-linker-skill) | Builds a persistent entity-relation knowledge graph memory store with confidence scoring and multi-hop subgraph retrieval | `knowledge-graph`, `agent-memory`, `entity-linking`, `subgraph-retrieval` |
+| [`genpark-remote-mcp-oauth-scope-auditor-and-token-vault-skill`](https://github.com/Alpha-Park/genpark-remote-mcp-oauth-scope-auditor-and-token-vault-skill) | Audits OAuth 2.1 permission scopes for remote MCP servers and enforces least-privilege access policies | `oauth-auditor`, `least-privilege`, `token-governance`, `remote-mcp` |
+| [`genpark-semantic-web-crawler-and-clean-markdown-distiller-skill`](https://github.com/Alpha-Park/genpark-semantic-web-crawler-and-clean-markdown-distiller-skill) | Extracts clean LLM-ready Markdown and citation links from raw HTML while stripping scripts, navbars, and boilerplate | `markdown-distiller`, `web-extractor`, `html-to-markdown`, `llm-ingestion` |
+| [`genpark-autonomous-terminal-command-sandbox-and-risk-classifier-skill`](https://github.com/Alpha-Park/genpark-autonomous-terminal-command-sandbox-and-risk-classifier-skill) | Classifies shell and SSH commands by destructive blast radius and blocks privilege escalation vectors | `terminal-sandbox`, `command-classifier`, `shell-security`, `blast-radius-auditor` |
+| [`genpark-git-diff-semantic-reviewer-and-breaking-change-detector-skill`](https://github.com/Alpha-Park/genpark-git-diff-semantic-reviewer-and-breaking-change-detector-skill) | Parses unified git diffs to detect breaking API signature changes, removed public functions, and leaked secrets | `git-diff-reviewer`, `breaking-change-detector`, `secret-scanner`, `code-review-agent` |
+
 ### Phase 323 — High-Impact MCP Security, Live SDK Context & Sequential Reasoning Suite
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
