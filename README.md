@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 323 — High-Impact MCP Security, Live SDK Context & Sequential Reasoning Suite
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-mcp-tool-description-injection-and-exfiltration-scanner-skill`](https://github.com/Alpha-Park/genpark-mcp-tool-description-injection-and-exfiltration-scanner-skill) | Scans MCP tool schemas and descriptions for prompt injection, tool shadowing, and data exfiltration vectors | `mcp-security`, `prompt-injection-scanner`, `tool-poisoning`, `exfiltration-detection` |
+| [`genpark-sdk-version-compatibility-and-deprecation-resolver-skill`](https://github.com/Alpha-Park/genpark-sdk-version-compatibility-and-deprecation-resolver-skill) | Validates SDK package versions, detects deprecated API calls, and generates live migration diffs | `sdk-compatibility`, `deprecation-resolver`, `api-migration`, `version-validator` |
+| [`genpark-sequential-reasoning-branch-and-backtrack-engine-skill`](https://github.com/Alpha-Park/genpark-sequential-reasoning-branch-and-backtrack-engine-skill) | Manages structured multi-step reasoning chains with hypothesis branching, confidence scoring, and backtracking | `sequential-reasoning`, `chain-of-thought`, `hypothesis-branching`, `backtrack-engine` |
+| [`genpark-design-token-and-layout-constraint-extractor-skill`](https://github.com/Alpha-Park/genpark-design-token-and-layout-constraint-extractor-skill) | Extracts normalized design tokens, spacing grids, and responsive layout constraints from UI component trees | `design-tokens`, `ui-layout-extractor`, `design-to-code`, `responsive-constraints` |
+| [`genpark-sql-read-only-guardrail-and-query-cost-estimator-skill`](https://github.com/Alpha-Park/genpark-sql-read-only-guardrail-and-query-cost-estimator-skill) | Enforces read-only SQL execution policies, blocks destructive mutations, and estimates query scan complexity | `sql-guardrail`, `read-only-validator`, `query-cost-estimator`, `database-safety` |
+
 ### Phase 322 — Social Workflow, Swarm Orchestration & Dynamic Personalization Suite (Product Hunt October 2026 Top Winners)
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
