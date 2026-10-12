@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 325 — Autonomous Observability, Browser DOM Action Planner & Hybrid RAG Suite
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-agent-trace-span-latency-and-bottleneck-profiler-skill`](https://github.com/Alpha-Park/genpark-agent-trace-span-latency-and-bottleneck-profiler-skill) | Profiles hierarchical OpenTelemetry agent execution spans to pinpoint latency bottlenecks and infinite tool retry loops | `agent-observability`, `trace-profiler`, `latency-bottleneck`, `opentelemetry` |
+| [`genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill`](https://github.com/Alpha-Park/genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill) | Converts ARIA accessibility nodes and DOM elements into deterministic CSS/ARIA action selectors for browser agents | `browser-agent`, `accessibility-tree`, `dom-selector`, `ui-automation` |
+| [`genpark-hybrid-dense-sparse-rrf-reranker-and-citation-verifier-skill`](https://github.com/Alpha-Park/genpark-hybrid-dense-sparse-rrf-reranker-and-citation-verifier-skill) | Fuses dense semantic retrieval and sparse BM25 lexical rankings using Reciprocal Rank Fusion (RRF) for high-precision RAG | `hybrid-search`, `reciprocal-rank-fusion`, `rrf-reranker`, `rag-optimization` |
+| [`genpark-structured-json-output-repair-and-schema-coercion-engine-skill`](https://github.com/Alpha-Park/genpark-structured-json-output-repair-and-schema-coercion-engine-skill) | Repairs malformed LLM JSON outputs by stripping markdown fences and trailing commas while validating required schema keys | `json-repair`, `schema-validation`, `structured-output`, `llm-parser` |
+| [`genpark-webhook-idempotency-and-replay-attack-guardrail-skill`](https://github.com/Alpha-Park/genpark-webhook-idempotency-and-replay-attack-guardrail-skill) | Verifies webhook delivery timestamp freshness, deduplicates event IDs, and blocks replay attacks for event-driven agents | `webhook-security`, `idempotency-guardrail`, `replay-protection`, `event-deduplication` |
+
 ### Phase 324 — Agentic Memory Graph, OAuth Scope Governance & Remote MCP Gateway Suite
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
