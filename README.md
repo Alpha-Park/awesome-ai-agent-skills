@@ -1513,6 +1513,15 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 326 — API-to-MCP Schema Compiler, Human-in-the-Loop Governance & Semantic Failure Reconstructor Suite
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-openapi-endpoint-to-mcp-tool-schema-compiler-skill`](https://github.com/Alpha-Park/genpark-openapi-endpoint-to-mcp-tool-schema-compiler-skill) | Compiles OpenAPI 3.x REST path specifications into standardized MCP tool JSON Schema definitions | `openapi-to-mcp`, `schema-compiler`, `api-gateway`, `tool-generator` |
+| [`genpark-human-in-the-loop-escalation-and-approval-gate-router-skill`](https://github.com/Alpha-Park/genpark-human-in-the-loop-escalation-and-approval-gate-router-skill) | Evaluates financial impact, state reversibility, and PII sensitivity to route high-risk agent actions to human sign-off | `human-in-the-loop`, `approval-gate`, `agent-governance`, `escalation-router` |
+| [`genpark-multi-step-agent-failure-root-cause-reconstructor-skill`](https://github.com/Alpha-Park/genpark-multi-step-agent-failure-root-cause-reconstructor-skill) | Reconstructs multi-step agent execution trajectories to isolate the origin step of cascading tool failures | `root-cause-analysis`, `failure-reconstructor`, `trajectory-debugging`, `agent-reliability` |
+| [`genpark-context-window-semantic-compression-and-salience-pruner-skill`](https://github.com/Alpha-Park/genpark-context-window-semantic-compression-and-salience-pruner-skill) | Scores conversational turns and tool outputs by semantic salience to prune low-value tokens within context budgets | `context-compression`, `salience-pruner`, `token-budget-optimizer`, `prompt-compression` |
+| [`genpark-environment-variable-and-secret-drift-config-validator-skill`](https://github.com/Alpha-Park/genpark-environment-variable-and-secret-drift-config-validator-skill) | Validates runtime environment configuration against template schemas and detects missing keys or unreplaced placeholders | `config-validator`, `env-drift-detector`, `secret-hygiene`, `deployment-readiness` |
+
 ### Phase 325 — Autonomous Observability, Browser DOM Action Planner & Hybrid RAG Suite
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
