@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 327 — Autonomous FinOps, Multi-Agent Debate Judge & GraphQL-to-MCP Bridge Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-graphql-schema-introspection-to-mcp-tool-bridge-skill`](https://github.com/Alpha-Park/genpark-graphql-schema-introspection-to-mcp-tool-bridge-skill) | Converts GraphQL query and mutation field definitions into standardized MCP tool JSON Schema specifications | `graphql-to-mcp`, `schema-bridge`, `api-introspection`, `tool-compiler` |
+| [`genpark-multi-agent-debate-judge-and-hallucination-arbiter-skill`](https://github.com/Alpha-Park/genpark-multi-agent-debate-judge-and-hallucination-arbiter-skill) | Evaluates competing multi-agent proposals by citation density and logical consistency to select verified consensus answers | `multi-agent-debate`, `hallucination-arbiter`, `consensus-judge`, `citation-density` |
+| [`genpark-cloud-token-and-gpu-finops-unit-economics-calculator-skill`](https://github.com/Alpha-Park/genpark-cloud-token-and-gpu-finops-unit-economics-calculator-skill) | Computes cost-per-resolved-task, prefix cache savings, and unit margin economics across LLM inference workloads | `finops`, `unit-economics`, `llm-cost-calculator`, `cache-savings` |
+| [`genpark-semantic-prompt-cache-key-normalizer-and-hit-predictor-skill`](https://github.com/Alpha-Park/genpark-semantic-prompt-cache-key-normalizer-and-hit-predictor-skill) | Scrubs volatile request UUIDs and timestamps from prompts to maximize deterministic prefix cache hit rates | `prompt-caching`, `cache-normalizer`, `prefix-caching`, `latency-reduction` |
+| [`genpark-autonomous-cron-schedule-conflict-and-deadlock-detector-skill`](https://github.com/Alpha-Park/genpark-autonomous-cron-schedule-conflict-and-deadlock-detector-skill) | Detects overlapping execution windows and shared resource lock contention across scheduled autonomous agent jobs | `cron-scheduler`, `deadlock-detector`, `resource-contention`, `job-orchestration` |
+
 ### Phase 326 — API-to-MCP Schema Compiler, Human-in-the-Loop Governance & Semantic Failure Reconstructor Suite
 | Skill / Repository | Description | Topics |
 | :--- | :--- | :--- |
