@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 328 — Agentic Context Compaction, Speculative Tool Decoding, Flakiness Quarantine & Webhook Sentinel Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-agentic-speculative-tool-call-batcher-skill`](https://github.com/Alpha-Park/genpark-agentic-speculative-tool-call-batcher-skill) | Synthesizes dependency DAGs across speculative agent tool calls, resolving parameter references and grouping independent invocations into parallel batch payloads | `speculative-execution`, `tool-batcher`, `dependency-graph`, `parallel-agent` |
+| [`genpark-context-sliding-window-entropy-compressor-skill`](https://github.com/Alpha-Park/genpark-context-sliding-window-entropy-compressor-skill) | Computes per-turn Shannon information entropy and lexical density across dialogue trajectories to prune low-information filler and compress context within strict token budgets | `context-compression`, `shannon-entropy`, `token-budget-optimizer`, `sliding-window` |
+| [`genpark-test-flakiness-quarantine-and-root-cause-triage-skill`](https://github.com/Alpha-Park/genpark-test-flakiness-quarantine-and-root-cause-triage-skill) | Evaluates multi-run test suite trajectories, calculates flakiness volatility indices, isolates timing race conditions from deterministic regressions, and generates automated quarantine tags | `test-flakiness`, `quarantine-manager`, `ci-cd-triage`, `root-cause-analysis` |
+| [`genpark-webhook-hmac-signature-and-replay-sentinel-skill`](https://github.com/Alpha-Park/genpark-webhook-hmac-signature-and-replay-sentinel-skill) | Validates provider cryptographic HMAC signatures, enforces microsecond timestamp drift ceilings, and tracks payload nonces to prevent replay attacks across agent integrations | `webhook-sentinel`, `hmac-sha256`, `replay-attack-protection`, `signature-verification` |
+| [`genpark-agent-eval-rubric-grading-and-variance-auditor-skill`](https://github.com/Alpha-Park/genpark-agent-eval-rubric-grading-and-variance-auditor-skill) | Grades agent completion outputs across weighted multi-criteria rubrics, computes inter-rater agreement variance, and flags inconsistent outlier score distributions | `llm-evals`, `rubric-grader`, `variance-auditor`, `inter-rater-agreement` |
+
 ### Phase 327 — Autonomous FinOps, Multi-Agent Debate Judge & GraphQL-to-MCP Bridge Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
