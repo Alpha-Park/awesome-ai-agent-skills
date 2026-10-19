@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 330 — AST Diff PR Summarizer, Embedding Cache, Exponential Backoff & SQL Taint Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-ast-diff-semantic-pr-summarizer-skill`](https://github.com/Alpha-Park/genpark-ast-diff-semantic-pr-summarizer-skill) | Synthesize semantic AST delta trees across git diffs, classify breaking signature changes, and output structured PR summaries | `ast-diff`, `git-pr-summarizer`, `code-review`, `breaking-changes` |
+| [`genpark-vector-embedding-cache-deduplication-sentinel-skill`](https://github.com/Alpha-Park/genpark-vector-embedding-cache-deduplication-sentinel-skill) | High-dimensional vector embedding semantic SimHash deduplication sentinel with LRU cache simulation | `vector-embedding`, `simhash`, `deduplication`, `embedding-cache` |
+| [`genpark-adaptive-exponential-backoff-jitter-retry-skill`](https://github.com/Alpha-Park/genpark-adaptive-exponential-backoff-jitter-retry-skill) | Full jitter exponential backoff retry scheduling and half-open circuit breaker state machine for LLM APIs | `exponential-backoff`, `full-jitter`, `circuit-breaker`, `retry-manager` |
+| [`genpark-sql-injection-ast-taint-analyzer-skill`](https://github.com/Alpha-Park/genpark-sql-injection-ast-taint-analyzer-skill) | Dynamic SQL AST taint tracking and static vulnerability auditor detecting tautologies and destructive piggybacking | `sql-injection`, `ast-taint`, `security-auditor`, `database-security` |
+| [`genpark-markdown-mermaid-syntax-lint-healer-skill`](https://github.com/Alpha-Park/genpark-markdown-mermaid-syntax-lint-healer-skill) | LLM output Mermaid diagram linting, unquoted bracket healing, and syntax normalization engine | `mermaid-lint`, `markdown-healer`, `diagram-syntax`, `syntax-fixer` |
+
 ### Phase 329 — Git Semantic Conflict Resolver, LLM Token Bucket, Deadlock Detector & Canary Sentinel Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
