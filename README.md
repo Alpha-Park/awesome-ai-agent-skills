@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 329 — Git Semantic Conflict Resolver, LLM Token Bucket, Deadlock Detector & Canary Sentinel Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-git-semantic-cherry-pick-conflict-resolver-skill`](https://github.com/Alpha-Park/genpark-git-semantic-cherry-pick-conflict-resolver-skill) | Three-way AST hunk alignment and non-overlapping block conflict resolution for Git cherry-pick and rebase patches | `git`, `cherry-pick`, `conflict-resolver`, `ast-alignment` |
+| [`genpark-llm-token-bucket-sliding-window-rate-limiter-skill`](https://github.com/Alpha-Park/genpark-llm-token-bucket-sliding-window-rate-limiter-skill) | Adaptive multi-tier TPM and RPM rate limiter with smooth leaky bucket queuing and predictive burst wait estimation | `rate-limiter`, `token-bucket`, `sliding-window`, `tpm-limiter` |
+| [`genpark-distributed-deadlock-wait-for-graph-detector-skill`](https://github.com/Alpha-Park/genpark-distributed-deadlock-wait-for-graph-detector-skill) | Real-time Tarjan SCC cycle detection on lock Wait-For-Graphs with minimal-cost victim transaction arbitrator | `deadlock-detector`, `wait-for-graph`, `tarjan-scc`, `lock-manager` |
+| [`genpark-prompt-injection-canary-leak-sentinel-skill`](https://github.com/Alpha-Park/genpark-prompt-injection-canary-leak-sentinel-skill) | HMAC-signed zero-width invisible canary token generator and output response leak auditor for LLM guardrails | `prompt-injection`, `canary-token`, `jailbreak-defense`, `zero-width-steganography` |
+| [`genpark-streaming-ndjson-jsonl-schema-validator-skill`](https://github.com/Alpha-Park/genpark-streaming-ndjson-jsonl-schema-validator-skill) | Ultra-low-latency incremental line validator with chunk boundary reassembly, schema auditing, and quarantine logging | `ndjson`, `jsonl`, `streaming-parser`, `schema-validation` |
+
 ### Phase 328 — Agentic Context Compaction, Speculative Tool Decoding, Flakiness Quarantine & Webhook Sentinel Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
