@@ -1681,3 +1681,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-semver-dependency-resolver-agent-skill](https://github.com/alphaparkinc/genpark-semver-dependency-resolver-agent-skill)**: Semantic Versioning 2.0.0 range matcher and dependency tree resolver for multi-agent toolkits and plugins.
 - **[genpark-context-window-token-pruner-skill](https://github.com/alphaparkinc/genpark-context-window-token-pruner-skill)**: Priority-weighted context window token pruner and FIFO eviction engine protecting LLM prompt boundaries.
 - **[genpark-prompt-drift-semantic-fingerprint-skill](https://github.com/alphaparkinc/genpark-prompt-drift-semantic-fingerprint-skill)**: Prompt template drift and structural fingerprint sentinel detecting unauthorized prompt mutations and regressions.
+
+### Phase 390: Micro-Batching, Deadlock Detection, PII Vaults & AST Sandboxes
+- **[genpark-adaptive-batch-request-debouncer-skill](https://github.com/alphaparkinc/genpark-adaptive-batch-request-debouncer-skill)**: Adaptive sliding window query debouncing and micro-batch coalescing engine optimizing LLM and tool call throughput.
+- **[genpark-graph-cycle-deadlock-detector-skill](https://github.com/alphaparkinc/genpark-graph-cycle-deadlock-detector-skill)**: Tarjan strongly connected components cycle and deadlock detector for multi-agent DAG execution workflows.
+- **[genpark-structured-data-mask-reconstruction-guard-skill](https://github.com/alphaparkinc/genpark-structured-data-mask-reconstruction-guard-skill)**: Deterministic reversible tabular and JSON record anonymizer and de-identification guard with HMAC pseudonyms.
+- **[genpark-sliding-window-rate-anomaly-detector-skill](https://github.com/alphaparkinc/genpark-sliding-window-rate-anomaly-detector-skill)**: Real-time streaming sliding-window anomaly and burst detector using z-score and EWMA for LLM token and API spikes.
+- **[genpark-safe-eval-expression-ast-sandbox-skill](https://github.com/alphaparkinc/genpark-safe-eval-expression-ast-sandbox-skill)**: Zero-dependency AST safe mathematical and boolean expression evaluator and validator preventing arbitrary code execution.
