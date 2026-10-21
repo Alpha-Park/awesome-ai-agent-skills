@@ -1674,3 +1674,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-json-rpc-batch-pipelining-dispatcher-skill](https://github.com/alphaparkinc/genpark-json-rpc-batch-pipelining-dispatcher-skill)**: High-throughput JSON-RPC 2.0 batch pipelining and inter-tool parameter dependency resolver for Model Context Protocol.
 - **[genpark-markdown-table-ast-normalizer-skill](https://github.com/alphaparkinc/genpark-markdown-table-ast-normalizer-skill)**: AST-based Markdown table normalizer rebalancing columns, padding, and exporting clean RFC 4180 CSV and JSON records.
 - **[genpark-distributed-lease-lock-coordinator-skill](https://github.com/alphaparkinc/genpark-distributed-lease-lock-coordinator-skill)**: In-memory distributed lease lock with monotonically increasing fencing tokens preventing multi-agent race conditions.
+
+### Phase 380: High-Performance Deduplication, Telemetry & Version Resolvers
+- **[genpark-bloom-filter-url-dedup-crawler-skill](https://github.com/alphaparkinc/genpark-bloom-filter-url-dedup-crawler-skill)**: In-memory Bloom filter for URL and document hash deduplication preventing redundant web crawler ingestion.
+- **[genpark-tool-call-latency-profiler-metrics-skill](https://github.com/alphaparkinc/genpark-tool-call-latency-profiler-metrics-skill)**: High-resolution MCP tool call latency profiler and P50/P90/P95/P99 telemetry metrics collector.
+- **[genpark-semver-dependency-resolver-agent-skill](https://github.com/alphaparkinc/genpark-semver-dependency-resolver-agent-skill)**: Semantic Versioning 2.0.0 range matcher and dependency tree resolver for multi-agent toolkits and plugins.
+- **[genpark-context-window-token-pruner-skill](https://github.com/alphaparkinc/genpark-context-window-token-pruner-skill)**: Priority-weighted context window token pruner and FIFO eviction engine protecting LLM prompt boundaries.
+- **[genpark-prompt-drift-semantic-fingerprint-skill](https://github.com/alphaparkinc/genpark-prompt-drift-semantic-fingerprint-skill)**: Prompt template drift and structural fingerprint sentinel detecting unauthorized prompt mutations and regressions.
