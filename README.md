@@ -1688,3 +1688,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-structured-data-mask-reconstruction-guard-skill](https://github.com/alphaparkinc/genpark-structured-data-mask-reconstruction-guard-skill)**: Deterministic reversible tabular and JSON record anonymizer and de-identification guard with HMAC pseudonyms.
 - **[genpark-sliding-window-rate-anomaly-detector-skill](https://github.com/alphaparkinc/genpark-sliding-window-rate-anomaly-detector-skill)**: Real-time streaming sliding-window anomaly and burst detector using z-score and EWMA for LLM token and API spikes.
 - **[genpark-safe-eval-expression-ast-sandbox-skill](https://github.com/alphaparkinc/genpark-safe-eval-expression-ast-sandbox-skill)**: Zero-dependency AST safe mathematical and boolean expression evaluator and validator preventing arbitrary code execution.
+
+### Phase 400: Trie Routing, Consistent Hashing, Jitter Retries & Contracts
+- **[genpark-trie-prefix-keyword-matcher-skill](https://github.com/alphaparkinc/genpark-trie-prefix-keyword-matcher-skill)**: High-performance in-memory Trie and multi-keyword search engine for prompt routing and entity extraction.
+- **[genpark-consistent-hash-ring-router-skill](https://github.com/alphaparkinc/genpark-consistent-hash-ring-router-skill)**: Consistent hashing ring with virtual nodes for distributed LLM cache routing and agent state partitioning.
+- **[genpark-exponential-backoff-jitter-retry-skill](https://github.com/alphaparkinc/genpark-exponential-backoff-jitter-retry-skill)**: Enterprise retry engine with full jitter, decorrelated jitter, and truncated exponential backoff for LLM rate limits.
+- **[genpark-json-schema-contract-validator-skill](https://github.com/alphaparkinc/genpark-json-schema-contract-validator-skill)**: Zero-dependency JSON schema subset validator ensuring LLM structured outputs strictly conform to tool contracts.
+- **[genpark-priority-event-scheduler-queue-skill](https://github.com/alphaparkinc/genpark-priority-event-scheduler-queue-skill)**: Min-heap priority event scheduler and delayed task dispatcher for asynchronous multi-agent coordination.
