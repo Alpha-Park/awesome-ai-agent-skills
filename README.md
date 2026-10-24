@@ -1706,3 +1706,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-exponential-backoff-jitter-retry-skill](https://github.com/alphaparkinc/genpark-exponential-backoff-jitter-retry-skill)**: Enterprise retry engine with full jitter, decorrelated jitter, and truncated exponential backoff for LLM rate limits.
 - **[genpark-json-schema-contract-validator-skill](https://github.com/alphaparkinc/genpark-json-schema-contract-validator-skill)**: Zero-dependency JSON schema subset validator ensuring LLM structured outputs strictly conform to tool contracts.
 - **[genpark-priority-event-scheduler-queue-skill](https://github.com/alphaparkinc/genpark-priority-event-scheduler-queue-skill)**: Min-heap priority event scheduler and delayed task dispatcher for asynchronous multi-agent coordination.
+
+### Phase 410: Circuit Breakers, LRU Caches, Fuzzy Matchers & Secrets Redactors
+- **[genpark-circuit-breaker-fault-sentinel-skill](https://github.com/alphaparkinc/genpark-circuit-breaker-fault-sentinel-skill)**: Three-state circuit breaker with failure rate tripping and automatic half-open probe recovery for resilient agent calls.
+- **[genpark-lru-ttl-multi-tier-cache-skill](https://github.com/alphaparkinc/genpark-lru-ttl-multi-tier-cache-skill)**: In-memory LRU cache with per-key TTL expiration, deterministic eviction, and hit/miss/stale telemetry for LLMs.
+- **[genpark-levenshtein-fuzzy-tool-matcher-skill](https://github.com/alphaparkinc/genpark-levenshtein-fuzzy-tool-matcher-skill)**: Fast Levenshtein distance and fuzzy similarity matcher autocorrecting hallucinated or typo-prone LLM tool calls.
+- **[genpark-secure-secret-token-redactor-skill](https://github.com/alphaparkinc/genpark-secure-secret-token-redactor-skill)**: High-speed regex and entropy-based scanner redacting API keys, JWT tokens, private keys, and credentials from prompt logs.
+- **[genpark-distributed-id-snowflake-generator-skill](https://github.com/alphaparkinc/genpark-distributed-id-snowflake-generator-skill)**: 64-bit Twitter Snowflake-compatible distributed unique ID generator with clock backwards drift protection.
