@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 331 — Distributed Event Sourcing, Saga Compensating Transactions & CQRS Query Bus Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-event-sourcing-append-only-ledger-and-snapshot-replayer-skill`](https://github.com/Alpha-Park/genpark-event-sourcing-append-only-ledger-and-snapshot-replayer-skill) | Manages append-only immutable event streams and rehydrates point-in-time state from periodic snapshot checkpoints | `event-sourcing`, `event-ledger`, `snapshot-replayer`, `state-rehydration` |
+| [`genpark-saga-distributed-compensating-transaction-orchestrator-skill`](https://github.com/Alpha-Park/genpark-saga-distributed-compensating-transaction-orchestrator-skill) | Coordinates distributed multi-step agent actions with forward execution and deterministic reverse compensation handlers | `saga-orchestrator`, `distributed-transactions`, `compensating-actions`, `rollback-handler` |
+| [`genpark-cqrs-read-model-projection-and-cache-invalidator-skill`](https://github.com/Alpha-Park/genpark-cqrs-read-model-projection-and-cache-invalidator-skill) | Projects write-side event streams into denormalized read-models with asynchronous cache invalidation tags | `cqrs`, `read-model`, `projection-engine`, `cache-invalidation` |
+| [`genpark-idempotent-message-deduplication-and-outbox-pattern-skill`](https://github.com/Alpha-Park/genpark-idempotent-message-deduplication-and-outbox-pattern-skill) | Implements the transactional outbox pattern to guarantee exactly-once message dispatch and deduplication | `transactional-outbox`, `message-deduplication`, `idempotent-dispatch`, `exactly-once` |
+| [`genpark-distributed-dead-letter-queue-and-poison-message-triage-skill`](https://github.com/Alpha-Park/genpark-distributed-dead-letter-queue-and-poison-message-triage-skill) | Captures poison payloads into dead-letter queues with automated classification and backoff retry schedules | `dead-letter-queue`, `dlq-triager`, `poison-message`, `error-classification` |
+
 ### Phase 330 — AST Diff PR Summarizer, Embedding Cache, Exponential Backoff & SQL Taint Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
