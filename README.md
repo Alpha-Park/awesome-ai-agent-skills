@@ -1738,3 +1738,10 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-json-pointer-patch-delta-skill](https://github.com/alphaparkinc/genpark-json-pointer-patch-delta-skill)**: RFC 6901 / RFC 6902 compliant JSON Pointer and JSON Patch delta computation engine for incremental state sync.
 - **[genpark-hyperloglog-cardinality-estimator-skill](https://github.com/alphaparkinc/genpark-hyperloglog-cardinality-estimator-skill)**: Pure Python 64-register HyperLogLog cardinality estimator for high-speed streaming distinct query estimation.
 - **[genpark-weighted-round-robin-balancer-skill](https://github.com/alphaparkinc/genpark-weighted-round-robin-balancer-skill)**: Nginx-style smooth weighted round-robin load balancer with dynamic weight adjustment for multi-LLM routing.
+
+### Phase 430: Aho-Corasick Automaton, Merkle DAG, Red-Black Trees, Reservoir Sampling & 2PC
+- **[genpark-aho-corasick-multi-pattern-matcher-skill](https://github.com/alphaparkinc/genpark-aho-corasick-multi-pattern-matcher-skill)**: High-throughput Aho-Corasick automaton for simultaneous multi-keyword dictionary matching and content filtering in LLM prompts.
+- **[genpark-merkle-dag-state-verifier-skill](https://github.com/alphaparkinc/genpark-merkle-dag-state-verifier-skill)**: Cryptographic Merkle tree verification engine for agent state transitions, tool call histories, and tamper-evident audit logs.
+- **[genpark-red-black-tree-index-skill](https://github.com/alphaparkinc/genpark-red-black-tree-index-skill)**: Self-balancing Red-Black binary search tree engine for ordered indexing, range queries, and log-time state updates in memory.
+- **[genpark-reservoir-sampling-stream-auditor-skill](https://github.com/alphaparkinc/genpark-reservoir-sampling-stream-auditor-skill)**: O(k) space unbiased stream reservoir sampling and quantile estimation engine for LLM telemetry and high-volume token streams.
+- **[genpark-two-phase-commit-coordinator-skill](https://github.com/alphaparkinc/genpark-two-phase-commit-coordinator-skill)**: Distributed Two-Phase Commit (2PC) transaction coordinator for atomic multi-agent state mutations with crash rollback.
