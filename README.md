@@ -1745,3 +1745,12 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 - **[genpark-red-black-tree-index-skill](https://github.com/alphaparkinc/genpark-red-black-tree-index-skill)**: Self-balancing Red-Black binary search tree engine for ordered indexing, range queries, and log-time state updates in memory.
 - **[genpark-reservoir-sampling-stream-auditor-skill](https://github.com/alphaparkinc/genpark-reservoir-sampling-stream-auditor-skill)**: O(k) space unbiased stream reservoir sampling and quantile estimation engine for LLM telemetry and high-volume token streams.
 - **[genpark-two-phase-commit-coordinator-skill](https://github.com/alphaparkinc/genpark-two-phase-commit-coordinator-skill)**: Distributed Two-Phase Commit (2PC) transaction coordinator for atomic multi-agent state mutations with crash rollback.
+
+### Phase 413: Autonomous Agent Memory Hierarchy, Semantic Cache & Resilience Skills
+| Repository | Description | Category | MCP Ready | Python Standard Lib |
+|---|---|---|---|---|
+| [genpark-agent-hierarchical-episodic-memory-skill](https://github.com/Alpha-Park/genpark-agent-hierarchical-episodic-memory-skill) | Hierarchical episodic memory store managing short-term conversational context, mid-term session recollections, and long-term reflection summaries | Memory | [x] | Standard library |
+| [genpark-agent-semantic-cache-query-matcher-skill](https://github.com/Alpha-Park/genpark-agent-semantic-cache-query-matcher-skill) | Fast semantic query cache with fuzzy term similarity and canonical intent hashing to avoid duplicate LLM invocations | Cost Optimization | [x] | Standard library |
+| [genpark-agent-conflict-resolution-merger-skill](https://github.com/Alpha-Park/genpark-agent-conflict-resolution-merger-skill) | 3-way operational transform / conflict resolution merger for multi-agent concurrent writes to code/documents | Collaboration | [x] | Standard library |
+| [genpark-agent-prompt-guard-injection-sanitizer-skill](https://github.com/Alpha-Park/genpark-agent-prompt-guard-injection-sanitizer-skill) | Strict heuristic and regex-based prompt injection and untrusted input guard detecting jailbreak markers | Security | [x] | Standard library |
+| [genpark-agent-adaptive-retry-circuit-breaker-skill](https://github.com/Alpha-Park/genpark-agent-adaptive-retry-circuit-breaker-skill) | Enterprise-grade circuit breaker with adaptive exponential backoff, jitter, and half-open state testing | Resilience | [x] | Standard library |
