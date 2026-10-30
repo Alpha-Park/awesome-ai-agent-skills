@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 332 — Autonomous Database Sharding, Connection Pool Health & Read-Write Splitting Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-dynamic-connection-pool-and-leak-sentinel-skill`](https://github.com/Alpha-Park/genpark-dynamic-connection-pool-and-leak-sentinel-skill) | Monitors connection acquisition timeouts, detects unclosed connection leaks, and dynamically resizes connection pools based on workload saturation | `connection-pool`, `leak-detection`, `database-performance`, `resource-governance` |
+| [`genpark-read-write-splitting-and-replication-lag-router-skill`](https://github.com/Alpha-Park/genpark-read-write-splitting-and-replication-lag-router-skill) | Automatically routes queries to read replicas or master nodes based on AST query type and dynamically throttles stale reads under replication lag | `read-write-splitting`, `replication-lag`, `query-routing`, `high-availability` |
+| [`genpark-sql-ast-tenant-schema-sharding-engine-skill`](https://github.com/Alpha-Park/genpark-sql-ast-tenant-schema-sharding-engine-skill) | Inspects SQL AST tokens to inject tenant isolation predicates, partition keys, and routes cross-shard distributed scatter-gather queries | `sql-ast`, `database-sharding`, `tenant-isolation`, `multi-tenant` |
+| [`genpark-distributed-lock-fencing-token-validator-skill`](https://github.com/Alpha-Park/genpark-distributed-lock-fencing-token-validator-skill) | Enforces distributed mutual exclusion with monotonic fencing tokens and optimistic lock lease expiration checks to prevent split-brain writes | `distributed-locks`, `fencing-tokens`, `split-brain-protection`, `lease-management` |
+| [`genpark-query-plan-index-advisor-and-scan-explainer-skill`](https://github.com/Alpha-Park/genpark-query-plan-index-advisor-and-scan-explainer-skill) | Parses execution plan nodes to detect full table scans, Cartesian cross joins, and suggests optimal composite indexes with cost estimation | `query-plan-analyzer`, `index-advisor`, `explain-plan`, `full-table-scan` |
+
 ### Phase 331 — Distributed Event Sourcing, Saga Compensating Transactions & CQRS Query Bus Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
