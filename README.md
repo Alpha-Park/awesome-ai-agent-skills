@@ -1513,6 +1513,17 @@ Holt linear exponential smoothing trend forecaster, multi-strategy Z-score & Tuk
 | [genpark-agent-extended-thinking-verification-critic-skill](https://github.com/Alpha-Park/genpark-agent-extended-thinking-verification-critic-skill) | Multi-round extended thinking critic performing backtracking, hypothesis testing, and factual ground checks | Service | [x] | Standard library |
 
 
+### Phase 333 — Autonomous LLM Cache Optimization, Semantic Prompt Deduplication & Token Cost Forecaster Suite
+> **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
+
+| Skill / Repository | Description | Topics |
+| :--- | :--- | :--- |
+| [`genpark-semantic-cache-and-prompt-deduplication-sentinel-skill`](https://github.com/Alpha-Park/genpark-semantic-cache-and-prompt-deduplication-sentinel-skill) | Evaluates prompt similarity via n-gram shingling, token hashing, and min-hash signatures to serve deterministic cached agent responses and eliminate redundant LLM calls | `semantic-cache`, `prompt-deduplication`, `llm-caching`, `cost-reduction` |
+| [`genpark-token-cost-forecaster-and-context-budgeter-skill`](https://github.com/Alpha-Park/genpark-token-cost-forecaster-and-context-budgeter-skill) | Forecasts LLM token consumption trajectories, enforces hard multi-agent cost budgets, and automatically truncates low-priority context windows | `token-budget`, `cost-forecaster`, `llm-finops`, `context-truncation` |
+| [`genpark-sliding-window-stream-aggregator-and-watermark-evictor-skill`](https://github.com/Alpha-Park/genpark-sliding-window-stream-aggregator-and-watermark-evictor-skill) | Aggregates real-time agent telemetry event streams across sliding time windows with event-time watermark tracking and out-of-order eviction | `sliding-window`, `stream-processing`, `watermark-eviction`, `event-time` |
+| [`genpark-adaptive-backpressure-and-token-bucket-rate-limiter-skill`](https://github.com/Alpha-Park/genpark-adaptive-backpressure-and-token-bucket-rate-limiter-skill) | Enforces token-bucket rate limiting with dynamic backpressure signaling, jittered queue retries, and upstream concurrency throttling | `token-bucket`, `rate-limiter`, `adaptive-backpressure`, `concurrency-control` |
+| [`genpark-structured-output-json-schema-guard-and-repairer-skill`](https://github.com/Alpha-Park/genpark-structured-output-json-schema-guard-and-repairer-skill) | Enforces strict JSON schema validation on model outputs and autonomously repairs malformed JSON syntax, trailing commas, and unclosed quotes | `json-schema`, `structured-outputs`, `json-repair`, `syntax-fixer` |
+
 ### Phase 332 — Autonomous Database Sharding, Connection Pool Health & Read-Write Splitting Suite
 > **Official Links**: [GenPark Website](https://www.genpark.ai) | [LinkedIn Page](https://www.llinkedin.com/company/92955550) ([LinkedIn](https://www.linkedin.com/company/92955550))
 
